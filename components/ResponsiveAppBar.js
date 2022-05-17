@@ -10,6 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
+import { LinearProgress } from '@mui/material';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 const logo = require('../assets/BBBlue.jpeg');
@@ -20,18 +21,15 @@ const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
 
   const handleOpenHamburgerMenu = (event) => {
-    console.log(event)
     setAnchorElNav(event.currentTarget);
   }
 
   const handleCloseHamburgerMenu = (event) => {
-    console.log(event.target.innerHTML)
     window.location.href = `/${event.target.innerHTML}`;
     setAnchorElNav(null);
   }
 
   const handleCloseNavMenu = (event) => {
-    console.log(event.target.innerText)
     let url = event.target.innerText[0] + event.target.innerText.slice(1).toLowerCase();
     if (url === 'undefined') {
       window.location.href = `/`;
@@ -45,7 +43,7 @@ const ResponsiveAppBar = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}  
           <Typography
             variant="h6"
             noWrap
@@ -60,10 +58,10 @@ const ResponsiveAppBar = () => {
               color: 'inherit',
               textDecoration: 'none',
             }}
-          >
-            BhattiBytes
+          > 
+          &nbsp;BhattiBytes
           </Typography>
-
+        
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -101,7 +99,7 @@ const ResponsiveAppBar = () => {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
           <Typography
             variant="h5"
             noWrap
