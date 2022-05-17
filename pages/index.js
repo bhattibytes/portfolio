@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Footer from '../components/Footer'
-import ResponsiveAppBar from '../components/ResponsiveAppBar'
-import Socials from '../components/Socials'
-import logoBlack from '../assets/BBBlack.png'
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
+import Footer from '../components/Footer';
+import ResponsiveAppBar from '../components/ResponsiveAppBar';
+import logoWhite from '../assets/BBWhite.png';
 
 export default function Home() {
   return (
@@ -15,13 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ResponsiveAppBar />
-
       <main className={styles.main}>
-
-        <Image src={logoBlack} alt="BhattiBytes Logo" height="750px" width="750px"/>
-
+        <Image src={logoWhite} alt="BhattiBytes Logo" height="750px" width="750px"/>
       </main>
-      <Socials />
       <Footer/>
     </div>
   )

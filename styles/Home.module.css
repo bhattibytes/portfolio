@@ -8,7 +8,9 @@
   align-items: center;
   font-family: rockwell, sans-serif;
   font-size: 1.5rem;
-  background-image: url('../assets/bg4.jpeg');
+  background-image: url('../assets/codinggif.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .projects {
@@ -96,10 +98,11 @@
 }
 
 .profilePic {
-  width: 200px;
-  height: 200px;
   border-radius: 150px;
+  padding: 10px;
+  border: 10px solid black;
   margin-bottom: 20px;
+  box-shadow: 20px;
 }
 
 .aboutText {

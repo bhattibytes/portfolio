@@ -9,13 +9,9 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import { LinearProgress } from '@mui/material';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
-const logo = require('../assets/BBBlue.jpeg');
 
-const pages = ['Projects', 'Github', 'About'];
+const pages = ['Applications', 'Github', 'About'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -43,7 +39,6 @@ const ResponsiveAppBar = () => {
     <AppBar position="fixed">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}  
           <Typography
             variant="h6"
             noWrap
@@ -99,7 +94,6 @@ const ResponsiveAppBar = () => {
               ))}
             </Menu>
           </Box>
-          {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
           <Typography
             variant="h5"
             noWrap

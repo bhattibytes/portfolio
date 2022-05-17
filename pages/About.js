@@ -1,10 +1,11 @@
-import styles from '../styles/Home.module.css'
-import Footer from '../components/Footer'
-import ResponsiveAppBar from '../components/ResponsiveAppBar'
-import Image from 'next/image'
-import profile from '../assets/Pro.jpeg'
-import Socials from '../components/Socials'
-import TechStack from '../components/TechStack'
+import styles from '../styles/Home.module.css';
+import Footer from '../components/Footer';
+import ResponsiveAppBar from '../components/ResponsiveAppBar';
+import Image from 'next/image';
+import profile from '../assets/Pro.jpeg';
+import profile2 from '../assets/JayRoof.jpeg';
+import Socials from '../components/Socials';
+import TechStack from '../components/TechStack';
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
       <ResponsiveAppBar />
         <div className={styles.about}>
           <h1 className={styles.header}>About Me</h1>
-          <Image className={styles.profilePic} src={profile} alt="github" height="300px" width="450px" />
+          <Image className={styles.profilePic} src={profile2} alt="profile" height="300px" width="300px"/>
           <div className={styles.aboutText} >
             <p>
             My name is Jason Bhatti and I am an experienced professional with several years of experience working in technology companies primarily “Software as a Service.” Throughout my professional career, I've always been curious about how systems work and how they can be improved upon. Improvements I've made have helped companies from a standpoint of increasing efficiency, usability, user experience, and revenues by decreasing sales cycles, errors, and time. In making these improvements, I've often found myself gravitating towards working directly with engineering teams to conceptualize unique solutions.

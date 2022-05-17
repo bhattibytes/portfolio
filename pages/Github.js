@@ -1,7 +1,7 @@
-import styles from '../styles/Home.module.css'
-import Footer from '../components/Footer'
-import ResponsiveAppBar from '../components/ResponsiveAppBar'
-import Image from 'next/image'
+import styles from '../styles/Home.module.css';
+import Footer from '../components/Footer';
+import ResponsiveAppBar from '../components/ResponsiveAppBar';
+import Image from 'next/image';
 
 const GitHub = () => {
   return (
@@ -11,7 +11,7 @@ const GitHub = () => {
         <a href='https://github.com/bhattibytes' target="_blank">
           <Image src="https://pngpress.com/wp-content/uploads/2020/08/uploads_github_github_PNG17.png" alt="github" height="300px" width="1000px" />
         </a>
-        <h1>Deployed Project Links:</h1>
+        <h1>Deployed App Links:</h1>
         <a target="_blank" href="https://app.charla.cc">Charla - Community Intelligence - SaaS Platform</a>
         <br/>
         <a target="_blank" href="https://star-trek.vercel.app/">Star Trek Quote Generator App </a>
