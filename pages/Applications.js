@@ -30,7 +30,7 @@ const Projects = () => {
           <h1 className={styles.heading}>Charla Technologies, Inc. - Side Project turned into Company</h1>
         </a>
         <p className={styles.summary}>
-          Charla allows users to automatically monitor online communities such as Slack. The application creates data visualizations from conversations happening in online communities with keyword tracking, real-time brand mention alerts, monitor sentiment analysis and community health. Charla integrates with sales automation tools such as Hubspot and Salesforce to ingest leads, important conversations, augment CRM prospect data and enrich customer data with contact information. 
+          Charla Technologies, Inc. is a SaaS Community Intelligence Platform that helps brands and their revenue teams manage their online communities. The application allows community managers to make data informed decisions by presenting data visualizations from conversations happening in online communities like Slack. Insights can be drawn from the data with Charla's keyword tracking, real-time brand mention alerts, topic word clouds, sentiment analysis and community health. Charla also integrates with sales automation tools such as Hubspot and Salesforce to export leads from important conversations to augment CRM prospect data by enriching leads with more contact information. 
         </p>
         <p className={styles.overview}> 
           Charla's home dashboard shows all of the modules within the platform and explainations so you can get a better understanding of each module's functionality.
