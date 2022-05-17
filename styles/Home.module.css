@@ -23,6 +23,10 @@
   font-size: 1.5rem;
 }
 
+.heading {
+  text-decoration: underline;
+}
+
 .summary {
   width: 70%;
   font-size: 30px;
