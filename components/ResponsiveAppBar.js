@@ -118,7 +118,7 @@ const ResponsiveAppBar = () => {
               textDecoration: 'none',
             }}
           >
-           BB
+           BhattiBytes
           </Typography>
           {/* Main Navigation Menu */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>

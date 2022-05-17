@@ -8,8 +8,10 @@ const GitHub = () => {
     <>
       <ResponsiveAppBar />
       <div className={styles.git}>
-        <Image src="https://pngpress.com/wp-content/uploads/2020/08/uploads_github_github_PNG17.png" alt="github" height="300px" width="1000px" />
-        <h1>Project Links:</h1>
+        <a href='https://github.com/bhattibytes' target="_blank">
+          <Image src="https://pngpress.com/wp-content/uploads/2020/08/uploads_github_github_PNG17.png" alt="github" height="300px" width="1000px" />
+        </a>
+        <h1>Deployed Project Links:</h1>
         <a target="_blank" href="https://app.charla.cc">Charla - Community Intelligence - SaaS Platform</a>
         <br/>
         <a target="_blank" href="https://star-trek.vercel.app/">Star Trek Quote Generator App </a>

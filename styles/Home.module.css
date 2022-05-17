@@ -11,6 +11,32 @@
   background-image: url('../assets/bg4.jpeg');
 }
 
+.projects {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: rockwell, sans-serif;
+  font-size: 1.5rem;
+}
+
+.summary {
+  width: 70%;
+  font-size: 30px;
+}
+
+.overview {
+  width: 50%;
+  font-size: 20px;
+}
+
+.details {
+  font-size: 16px;
+}
+
 .git {
   color: white;
   min-height: 100vh;
@@ -21,7 +47,7 @@
   justify-content: center;
   align-items: center;
   font-family: rockwell, sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-image: url('../assets/codeBG.jpeg');
 }
 
@@ -30,7 +56,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 30%;
+  width: 20%;
 }
 
 .socialContainer {
@@ -78,7 +104,8 @@
   display: flex;
   text-align: justify;
   line-height: 20px;
-  width: 40%;
+  width: 60%;
+  margin-top: 2rem;
 }
 
 .techStack {
