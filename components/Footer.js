@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       Powered by &nbsp;
-      <span className={styles.logo}>
-        <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+      <span>
+        <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16}/>
       </span>
       &nbsp;
-      <p className={styles.logo}>
+      <p>
       &nbsp;
       Created with Next.js & Material UI By: Jason Bhatti
       </p>
