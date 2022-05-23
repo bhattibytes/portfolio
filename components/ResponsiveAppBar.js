@@ -21,13 +21,19 @@ const ResponsiveAppBar = () => {
   }
 
   const handleCloseHamburgerMenu = (event) => {
-    window.location.href = `/${event.target.innerHTML}`;
-    setAnchorElNav(null);
+    if (event.target.innerHTML[0] === '<') {
+      window.location.href = `/`;
+    } else {
+      window.location.href = `/${event.target.innerHTML}`;
+      setAnchorElNav(null);
+    }
   }
 
   const handleCloseNavMenu = (event) => {
     let url = event.target.innerText[0] + event.target.innerText.slice(1).toLowerCase();
     if (url === 'undefined') {
+      window.location.href = `/`;
+    } else if (url[0] === '<') {
       window.location.href = `/`;
     } else {
       window.location.href = `/${url}`;

@@ -31,7 +31,7 @@ const About = () => {
           >
             <h3>Download my Resume</h3>
           </a>
-          <a href="mailto:bhattibytes@gmail.com"><h3>Email Me</h3></a>
+          <a href="mailto:bhattibytes@gmail.com"><h3 style={{marginBottom: "80px"}}>Email Me</h3></a>
         </div>
       <Footer />
     </>
