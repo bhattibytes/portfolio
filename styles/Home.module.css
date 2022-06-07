@@ -140,7 +140,6 @@
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid white;
-  box-shadow: 20px;
   justify-content: center;
   align-items: center;
   color: white;
@@ -152,9 +151,95 @@
   bottom: 0pt;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 1550px) {
+  .social {
+    width: 50%;
+   justify-content: space-between;
+ }
+
+ .socialContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ }
+
+  .aboutText {
+    width: 70%;
+  }
+
+  .heading{
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .heading{
+    margin-left: 10px;
+    font-size: 42px;
+  }
+
+  .git {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+
+  .aboutText {
+    width: 80%;
+  }
+
+  .heading{
+    margin-left: 10px;
+    font-size: 40px;
+  }
+
+  .summary{
+    width: 80%;
+    font-size: 25px;
+  }
+
+  .overview {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .power {
+    padding-top: 10px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;  
+    align-items: space-evenly;
+    height: 90px;
+    font-size: .75rem;
+  }
+
+  .footer span {
+    padding-top: 6px;
+  }
+
+  .git {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+ .social {
+    width: 75%;
+    justify-content: space-between;
+ }
+
+ .socialContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ }
 }

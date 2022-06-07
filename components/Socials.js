@@ -17,12 +17,12 @@ const Socials = () => {
       <div className={styles.social}>
         <Tooltip title="GitHub" arrow>
           <a href="https://github.com/bhattibytes" target="_blank" rel="noopener noreferrer">
-            <Image src={github} alt="github" height={30} width={30} style={{ borderRadius: "8px" }}/>
+            <Image src={github} alt="github" height={30} width={30} style={{ borderRadius: "3px" }}/>
           </a>
         </Tooltip>
         <Tooltip title="LinkedIn" arrow>
           <a href="https://www.linkedin.com/in/jasonbhatti/" target="_blank" rel="noopener noreferrer">
-            <Image src={linkedin} alt="linkedin" height={30} width={30} style={{ borderRadius: "8px" }}/>
+            <Image src={linkedin} alt="linkedin" height={30} width={30} style={{ borderRadius: "3px" }}/>
           </a>
         </Tooltip>
         <Tooltip title="Facebook" arrow>
