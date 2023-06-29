@@ -2,10 +2,8 @@ import styles from '../styles/Home.module.css';
 import Footer from '../components/Footer';
 import ResponsiveAppBar from '../components/ResponsiveAppBar';
 import Image from 'next/image';
-import profile from '../assets/Pro.jpeg';
 import profile2 from '../assets/JayRoof.jpeg';
 import Socials from '../components/Socials';
-import TechStack from '../components/TechStack';
 
 const About = () => {
   return (
@@ -25,8 +23,6 @@ const About = () => {
            My specialties include quickly learning new skills and programming languages, managing software engineering teams, problem solving, responsive design principles, agile methodology, website optimization, SEO, User Experience Design (UXD) and the Model View Controller (MVC) method of organizing code. So far I have HTML, CSS, JavaScript, jQuery, React.JS, Next.JS, Node.JS, Express.JS, Tailwind CSS, Material UI, GraphQL, MongoDB, Mongoose, mySQL, Postgres, Sequelize, AWS - EC2, IAM, S3, Lambda, DynamoDB, Dynamoose, CI/CD - Vercel, Netlify, AWSPipeline and Git/GitHub. I'm learning Python and Typescript. I'm still enthusiastically grabbing onto any other programming languages, frameworks, or principles I can integrate into my coding wheelhouse.
            </p>
           </div>
-          <h1>Tech Stack</h1>
-          <TechStack />
           <h1>Let's Connect!</h1>
           <Socials/>
           <a href="mailto:bhattibytes@gmail.com"><h3 style={{marginBottom: "80px"}}>Email Me</h3></a>

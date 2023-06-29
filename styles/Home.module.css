@@ -45,7 +45,7 @@
 }
 
 .git {
-  color: white;
+  color: whitesmoke;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -58,6 +58,18 @@
   background-image: url('../assets/codeBG.jpeg');
   margin-top: 40px;
 }
+
+.gitType {
+  height: 250px;
+  text-align: center;
+  line-height: 65px;
+}
+
+.gitImg {
+  width: 600px;
+  height: 400px;
+  margin-left: 15px;
+} 
 
 .social {
   display: flex;
@@ -123,8 +135,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
   margin-bottom: 20px;
+  padding-top: 10px;
+  border-radius: 50px;
+  box-shadow: inset 0 0 10px #000000;
+  background-color: whitesmoke;
 }
 
 .tech {
@@ -227,7 +243,16 @@
   .git {
     font-size: 20px;
   }
+  .gitImg {
+    width: 90%;
+    margin-left: 15px;
+  } 
 
+  .gitType {
+    height: 250px;
+    text-align: center;
+    line-height: 50px;
+  }
 }
 
 @media screen and (max-width: 500px) {
