@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 import ResponsiveAppBar from '../components/ResponsiveAppBar';
 import Image from 'next/image';
 import MetroidCover from '../assets/metroid.jpeg';
-import MarioCover from '../assets/mario.jpeg';
+import MarioCover from '../assets/Mario.jpeg';
 import GhoulsCover from '../assets/ghouls.png';
 import BattleCover from '../assets/battle.jpeg';
 import CastleCover from '../assets/castle.png';
