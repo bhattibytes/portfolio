@@ -27,8 +27,9 @@ const Projects = () => {
       <ResponsiveAppBar />
       <div className={styles.projects}>
         <a href="https://app.charla.cc/" target="_blank" rel="noopener noreferrer">
-          <h1 className={styles.heading}>Charla Technologies, Inc. - Side Project turned into Company</h1>
+          <h1 className={styles.heading}>Charla Technologies, Inc.</h1>
         </a>
+        <h2> **A Side Project that became a Tech Company**</h2>
         <p className={styles.summary}>
           Charla Technologies, Inc. is a SaaS Community Intelligence Platform that helps brands and their revenue teams manage their online communities. The application allows community managers to make data informed decisions by presenting data visualizations from conversations happening in online communities like Slack. Insights can be drawn from the data with Charla's keyword tracking, real-time brand mention alerts, topic word clouds, sentiment analysis and community health. Charla also integrates with sales automation tools such as Hubspot and Salesforce to export leads from important conversations to augment CRM prospect data by enriching leads with more contact information. 
         </p>
@@ -61,7 +62,11 @@ const Projects = () => {
           Identify trending topics, content ideas, and other keywords, per channel and across your multiple connected online communities.
         </p>
         <Image src={word} width={800} height={500}/>
-        <h1 className={styles.heading}>Secure Your Vote - Capstone Project</h1>
+        <div className={styles.games}></div>
+        <a href="https://syv-theta.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <h1 className={styles.heading}>Secure Your Vote App</h1>
+        </a>
+        <h2>**A Capstone Project**</h2>
         <p className={styles.summary}>
           The aim of this project was to create a secure and easy-to-use voting app that also showed election information catered to the user's location. Our team of highly skilled engineers envisioned a method that accomplished a high level of security while also offering many user focused experiences that create a sticky user experience while also being aesthetically pleasing and accessible. We have incorporated many features that allow customization based on user specific information that is securely stored and offer features that guide the user to having all the election information at their fingertips.
         </p>
@@ -91,7 +96,9 @@ const Projects = () => {
         <Image src={dashboard} width={800} height={500}/>
         <Image src={vote} width={800} height={500}/>
 
-        <h1 className={styles.heading}>Catwalk - Eccomerce Project</h1>
+        <div className={styles.games}></div>
+        <h1 className={styles.heading}>Catwalk</h1>
+        <h2>**An Eccomerce Project**</h2>
         <p className={styles.summary}>
           Representative of a cloned fashion ecommerce website that enables customers the ability to search, browse, add to cart, and checkout items. This app was previously deployed on AWS using an EC2 instance.
         </p>

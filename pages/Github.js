@@ -32,24 +32,24 @@ const GitHub = () => {
             .pauseFor(1500)
             .start();
           }} />
-        </div>  
-        <h4>Tech Stack</h4>
+        </div>
+        <br/>
+        <a href='https://github.com/bhattibytes' target="_blank"><h2 className={styles.gitPro}>👉 Link to GitHub Profile 👈</h2></a>  
+        <h4>Tech 🚀 Stack</h4>
           <TechStack />
+         {/* GitHub Streak */}
+         <h4 style={{marginBottom: "0px"}}>GitHub ☄️ Streak</h4>
+          <img className={styles.gitImg} align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bhattibytes&" alt="bhattibytes"/>
         {/* Trophy Case */}
-        <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img className={styles.gitImg} src="https://github-profile-trophy.vercel.app/?username=bhattibytes" alt="bhattibytes" /></a> </p>
-        {/* GitHub Stats */}
+        <h4 style={{marginBottom: "0px"}}>GitHub 🏆 Case</h4>
+        <a href="https://github.com/ryo-ma/github-profile-trophy"><img className={styles.gitImg} src="https://github-profile-trophy.vercel.app/?username=bhattibytes" alt="bhattibytes" /></a>
+        {/* GitHub Commits */}
+        <h4>GitHub ⭐ Commits</h4>
         <p>&nbsp;<Image className={styles.gitImg} width={800} height={600} align="center" src={recent} alt="bhattibytes" /></p>
         <p>&nbsp;<Image className={styles.gitImg} width={800} height={600} align="center" src={git2023} alt="bhattibytes23" /></p>
         <p>&nbsp;<Image className={styles.gitImg} width={800} height={600} align="center" src={git2022} alt="bhattibytes22" /></p>
         <p>&nbsp;<Image className={styles.gitImg} width={800} height={600} align="center" src={git2021} alt="bhattibytes21" /></p>
         <p>&nbsp;<Image className={styles.gitImg} width={800} height={600} align="center" src={git2020} alt="bhattibytes20" /></p>
-
-        {/* GitHub Streak */}
-        <p>
-          <img className={styles.gitImg} align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bhattibytes&" alt="bhattibytes"/>
-        </p>
-        <a href='https://github.com/bhattibytes' target="_blank"><h5>GitHub Profile</h5></a>
-        <hr></hr>
       </div>
       <Footer />
     </>

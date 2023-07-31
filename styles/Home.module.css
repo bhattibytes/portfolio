@@ -13,6 +13,36 @@
   background-size: cover;
 }
 
+.gitPro {
+  font-size: 60px;
+}
+
+.games {
+  text-align: center;
+  margin-top: 75px;
+  font-size: 60px;
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 50%;
+  background-color: whitesmoke;
+}
+
+.titles {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.iframe {
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.bottom {
+  margin-top: 100px;
+}
+
 .projects {
   margin-top: 40px;
   min-height: 100vh;
@@ -62,7 +92,7 @@
 .gitType {
   height: 250px;
   text-align: center;
-  line-height: 65px;
+  line-height: 75px;
 }
 
 .gitImg {
@@ -109,7 +139,7 @@
 .header {
   padding-top: 40px;
   font-size: 4rem;
-  text-decoration: underline;
+  font-size: 60px;
 }
 
 .profilePic {
