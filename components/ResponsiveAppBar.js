@@ -21,11 +21,14 @@ const ResponsiveAppBar = () => {
   }
 
   const handleCloseHamburgerMenu = (event) => {
+    if (event.target.innerHTML[0] === 'F') {
+      return window.location.href = `/Fun&games`
+    }
     if (event.target.innerHTML[0] === '<') {
-      window.location.href = `/`;
+      return window.location.href = `/`;
     } else {
       window.location.href = `/${event.target.innerHTML}`;
-      setAnchorElNav(null);
+      return setAnchorElNav(null);
     }
   }
 
