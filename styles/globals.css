@@ -12,19 +12,27 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Titillium Web', sans-serif;
 }
 
+p {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
 a:hover {
-  color: orange;
+  color: #5BE9B9;
 }
 
 button:hover {
-  color: orange;
+  color: #5BE9B9;
 }
 
 * {
   box-sizing: border-box;
+}
+
+span.MuiLinearProgress-bar {
+  background-color: #6e09f3;
 }

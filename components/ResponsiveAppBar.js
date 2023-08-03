@@ -11,6 +11,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import LinearDeterminate from './LinearDeterminate';
+import styles from '../styles/Home.module.css';
 
 const pages = ['About', 'Applications', 'Github', 'Fun&Games'];
 
@@ -47,6 +48,7 @@ const ResponsiveAppBar = () => {
 
   return (
     <AppBar position="fixed"
+    style={{ backgroundColor: "#6e07f3"}}
     sx={{ borderBottom: "1px solid white", height: "70px" }}
     >
       <Container maxWidth="xl">

@@ -38,7 +38,7 @@ const About = () => {
             <h1>View Hack Reactor Certificate of Completion</h1>
           </a>
           <a href="/Testimonials.pdf" alt="Testimonials from Hack Reactor" target="_blank" rel="noopener noreferrer">
-            <h1>View Testimonials</h1>
+            <h1>View Hack Reactor Testimonials</h1>
           </a>
           <h2>Let's Connect!</h2>
           <Socials/>

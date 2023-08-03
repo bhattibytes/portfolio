@@ -27,7 +27,7 @@ export default function LinearDeterminate() {
 
   return (
     <Box sx={{ width: '100%' }}>
-      <LinearProgress variant="determinate" value={progress} />
+      <LinearProgress variant="determinate" value={progress} style={{ backgroundColor: '#5BE9B9' }}/>
     </Box>
   );
 }

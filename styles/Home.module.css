@@ -1,16 +1,77 @@
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: rockwell, sans-serif;
-  font-size: 1.5rem;
-  background-image: url('../assets/codinggif.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
+.section {
+  background-color: #6e07f3;
+  width: 100%;
+  height: 500px;
+  margin-top: -150px !important;
+  border-bottom: 2px solid black;
+}
+
+.sectionApp {
+  background-color: #6e07f3;
+  width: 90%;
+  height: 200px;
+  border: 2px solid black;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 10px black;
+}
+
+.devices {
+  margin-top: -30px !important;
+  padding-bottom: 0;
+}
+
+.homeBio {
+  margin-top: 20px;
+  padding-top: 30px;
+  color: white;
+  font-size: 40px;
+  
+}
+
+.homeBioSummary {
+  color: white;
+  font-size: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.row {
+  display: table;
+  clear: both;
+  margin-top: -100px;
+}
+
+.blurb {
+  font-size: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cardHead {
+  color: #6e07f3;
+}
+
+.column {
+  font-weight: bold;
+  float: left;
+  padding-top: 20px;
+  margin-left: 3px;
+  margin-bottom: 200px;
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 25px;
+  box-shadow: 4px 4px #5BE9B9;
+}
+
+.headline {
+  font-size: 3rem;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 140px;
+  color: black;
 }
 
 .gitPro {
@@ -44,7 +105,7 @@
 }
 
 .projects {
-  margin-top: 40px;
+  margin-top: -10px;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -191,10 +252,11 @@
   color: white;
   height: 65px; 
   width: 100%;
-  background-color: #1976d2;
+  background-color: #6e07f3;
   background-position: 0% 0%;
   position: fixed;
   bottom: 0pt;
+  box-shadow: inset 0 0 10px #000000;
 }
 
 @media screen and (max-width: 1550px) {
@@ -282,6 +344,12 @@
     height: 250px;
     text-align: center;
     line-height: 50px;
+  }
+
+  .homeBioSummary {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
