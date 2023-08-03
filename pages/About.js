@@ -32,9 +32,15 @@ const About = () => {
            </p>
           </div>
           <a href="/Jason_Bhatti-Resume.pdf" alt="Jason_Bhatti_CV" target="_blank" rel="noopener noreferrer">
-            <h1>Download My Resume</h1>
+            <h1>View My Resume</h1>
           </a>
-          <h1>Let's Connect!</h1>
+          <a href="/HRCertificate.pdf" alt="Hack Reactor Certificate" target="_blank" rel="noopener noreferrer">
+            <h1>View Hack Reactor Certificate of Completion</h1>
+          </a>
+          <a href="/Testimonials.pdf" alt="Testimonials from Hack Reactor" target="_blank" rel="noopener noreferrer">
+            <h1>View Testimonials</h1>
+          </a>
+          <h2>Let's Connect!</h2>
           <Socials/>
           <a href="mailto:bhattibytes@gmail.com"><h3 style={{marginBottom: "80px"}}>Email Me</h3></a>
         </div>

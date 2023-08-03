@@ -10,8 +10,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import LinearDeterminate from './LinearDeterminate';
 
-const pages = ['Applications', 'Github', 'About', 'Fun&Games'];
+const pages = ['About', 'Applications', 'Github', 'Fun&Games'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -46,7 +47,7 @@ const ResponsiveAppBar = () => {
 
   return (
     <AppBar position="fixed"
-    sx={{ borderBottom: "1px solid white", height: "66px" }}
+    sx={{ borderBottom: "1px solid white", height: "70px" }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -137,6 +138,7 @@ const ResponsiveAppBar = () => {
           </Box>
         </Toolbar>
       </Container>
+      <LinearDeterminate />
     </AppBar>
   );
 };
