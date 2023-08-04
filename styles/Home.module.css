@@ -1,3 +1,47 @@
+/* Start Testimonials carousel */
+.container {
+  margin: 1rem 0;
+  width: 50%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.container h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.seperator {
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: 2px 2px #5BE9B9;
+}
+
+.carousWrapper {
+  width: 100%;
+}
+
+.card {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+}
+
+.title {
+  background-color: rgba(4, 4, 4, 0.228);
+  border-radius: 15px;
+}
+
+.title h3 {
+  padding: 2rem;
+  color: #fff;
+}
+/* End Testimonials carousel */
+
 .section {
   background-color: #6e07f3;
   width: 100%;
@@ -57,7 +101,7 @@
   font-weight: bold;
   float: left;
   padding-top: 20px;
-  margin-left: 3px;
+  margin-left: 8px;
   margin-bottom: 200px;
   width: 400px;
   height: 720px;
