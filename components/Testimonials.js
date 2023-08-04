@@ -1,9 +1,8 @@
-import { items } from "../public/Items.json";
+import items from "../public/Items.js";
 import Carousel from "react-elastic-carousel";
 import styles from "../styles/Home.module.css";
 
 export default function ElasticCarousel() {
-  const { elastic } = items;
   return (
     <center>
       <div className={styles.container}>
@@ -14,15 +13,14 @@ export default function ElasticCarousel() {
         <hr className={styles.seperator} />
         <div className={styles.contWrapper}>
           <Carousel>
-            {elastic.map((item) => (
-              <center><div
-                key={item.id}
+            {items.items.elastic.map((item) => (
+              <center key={item.id}><div
                 className={styles.card}
               >
-                <img src={item.imageUrl} style={{ borderRadius: "100px", height: "150px" }} key={item.id}/>
-                <p key={item.id}>"{item.testimonial}"</p>
-                <h2 key={item.id}>{item.name}</h2>
-                <h3 key={item.id}>{item.title}</h3>
+                <img src={item.imageUrl} style={{ borderRadius: "100px", height: "150px" }}/>
+                <p>"{item.testimonial}"</p>
+                <h2>{item.name}</h2>
+                <h3>{item.title}</h3>
               </div></center>
             ))}
           </Carousel>

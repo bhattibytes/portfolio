@@ -1,4 +1,4 @@
-{
+const items = {
   "items": {
     "elastic": [
       {
@@ -46,3 +46,5 @@
     ]
   }
 }
+
+export default items;
