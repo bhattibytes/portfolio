@@ -12,7 +12,7 @@ const Footer = () => {
       &nbsp;
       <p>
       &nbsp;
-      Created with Next.js & Material UI By: Jason Bhatti
+      Handcratfed By: Jason Bhatti aka BhattiBytes
       </p>
     </footer>
   )
