@@ -1,6 +1,6 @@
 /* Start Testimonials carousel */
 .container {
-  margin: 1rem 0;
+  margin: 5rem 0;
   width: 50%;
   padding: 20px;
   border-radius: 15px;
@@ -41,6 +41,21 @@
   color: #fff;
 }
 /* End Testimonials carousel */
+
+.work {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+}
+
+.btn {
+  color: #6e07f3;
+}
+
+.btn:hover {
+  color: #5BE9B9;
+}
 
 .section {
   background-color: #6e07f3;
@@ -299,7 +314,6 @@
   width: 100%;
   background-color: #6e07f3;
   background-position: 0% 0%;
-  position: fixed;
   bottom: 0pt;
   box-shadow: inset 0 0 10px #000000;
 }

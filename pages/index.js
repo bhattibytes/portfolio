@@ -6,6 +6,7 @@ import ResponsiveAppBar from '../components/ResponsiveAppBar';
 import advatar from '../assets/avatar.png';
 import devices from '../assets/devices.svg';
 import Testimonials from '../components/Testimonials';
+import Work from '../components/Work';
 
 export default function Home() {
   return (
@@ -88,6 +89,11 @@ export default function Home() {
               <p className={styles.blurb}>ISC</p>
             </div>
           </section>
+        </center>
+        <center>
+          <h1>My Recent Work</h1>
+          <h3>Here are a few projects of mine...</h3>
+          <Work />
         </center>
         <Testimonials />
       </main>

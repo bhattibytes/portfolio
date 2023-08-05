@@ -26,7 +26,6 @@ export default function ElasticCarousel() {
           </Carousel>
         </div>
       </div>
-      <div className={styles.bottom}></div>
     </center>
   );
 }

@@ -26,7 +26,7 @@ const Projects = () => {
     <div>
       <ResponsiveAppBar />
       <div className={styles.projects}>
-      <section className={styles.sectionApp}>
+      <section id="charla" className={styles.sectionApp}>
           <center style={{ marginTop: '40px', color: 'white' }}>
             <a href="https://app.charla.cc/" target="_blank" rel="noopener noreferrer">
               <h1 className={styles.heading}>Charla Technologies, Inc.</h1>
@@ -67,6 +67,7 @@ const Projects = () => {
           Identify trending topics, content ideas, and other keywords, per channel and across your multiple connected online communities.
         </p>
         <Image src={word} width={800} height={500}/>
+        <div id="syv"></div>
         <section className={styles.sectionApp}>
           <center style={{ marginTop: '40px', color: 'white' }}>
             <a href="https://syv-theta.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -103,7 +104,7 @@ const Projects = () => {
         </p>
         <Image src={dashboard} width={800} height={500}/>
         <Image src={vote} width={800} height={500}/>
-
+        <div id="catwalk"></div>
         <section className={styles.sectionApp}>
           <center style={{ marginTop: '40px', color: 'white' }}>
             <h1 className={styles.heading}>Catwalk</h1>
