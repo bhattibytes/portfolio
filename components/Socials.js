@@ -6,13 +6,13 @@ import linkedin from '../assets/linkedin.png';
 import facebook from '../assets/FBBlack.png';
 import twitter from '../assets/twitter.png';
 import instagram from '../assets/instagram.png';
-import pintrest from '../assets/pintrest.jpeg';
+import pintrest from '../assets/pintrest2.png';
 import wordpress from '../assets/wordpress.png';
+import mail from '../assets/mail.png';
 
 const Socials = () => {
   return (
     <>
-    <h1 className={styles.socialTitle}>Social Media Links:</h1>
     <div className={styles.socialContainer}>
       <div className={styles.social}>
         <Tooltip title="GitHub" arrow>
@@ -48,6 +48,11 @@ const Socials = () => {
         <Tooltip title="WordPress" arrow>
           <a href="https://bhattibytes.wordpress.com/" target="_blank" rel="noopener noreferrer">
             <Image src={wordpress} alt="wordpress" height={30} width={30}/>
+          </a>
+        </Tooltip>
+        <Tooltip title="Email" arrow>
+          <a href="mailto:bhattibytes@gmail.com" target="_blank" rel="noopener noreferrer">
+            <Image src={mail} alt="email" height={32} width={30}/>
           </a>
         </Tooltip>
       </div>

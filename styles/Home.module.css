@@ -17,6 +17,12 @@
   box-shadow: 2px 2px #5BE9B9;
 }
 
+.seperator2 {
+  width: 50%;
+  border: 1px solid black;
+  box-shadow: 2px 2px #5BE9B9;
+}
+
 .carousWrapper {
   width: 100%;
 }
@@ -304,13 +310,14 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid white;
   justify-content: center;
   align-items: center;
   color: white;
-  height: 150px; 
+  height: 200px; 
   width: 100%;
   background-color: #6e07f3;
   background-position: 0% 0%;

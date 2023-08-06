@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
+import Socials from './Socials';
 
 const Footer = () => {
 
@@ -9,11 +10,11 @@ const Footer = () => {
       <span>
         <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16}/>
       </span>
-      &nbsp;
       <p>
       &nbsp;
-      Handcratfed By: Jason Bhatti aka BhattiBytes
+      Handcratfed by Jason Bhatti aka BhattiBytes
       </p>
+      <Socials />
     </footer>
   )
 

@@ -37,7 +37,7 @@ export default function Work() {
                   image={hover && id == work.id ? work.black : work.imgURL}
                 />
                 { hover && id == work.id ?
-                <div style={{ position: "absolute", color: "white", top: "2350px" }}>
+                <div style={{ position: "absolute", color: "white", top: "2500px" }}>
                   <center style={{ color: "white" }}>
                     <CardContent style={{ color: "white" }}>
                     <Typography gutterBottom variant="h5" component="div">

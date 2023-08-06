@@ -22,6 +22,8 @@ export default function Home() {
           <h2 className={styles.headline}>Full Stack Software Engineer, Product Engineer & Systems Integrator</h2>
           <p style={{ fontSize: '20px'}}>I love solving problems with code to build great products.</p>
         </center>
+        <br/>
+        <br/>
         <center><Image className={styles.advatar} src={advatar} alt="developer advatar" height="250px" width="250px"/></center>
         <center><Image className={styles.devices} src={devices} alt="developer advatar" height="500px" width="750px"/></center>
         <section className={styles.section}>
@@ -93,8 +95,15 @@ export default function Home() {
         <center>
           <h1>My Recent Work</h1>
           <h3>Here are a few projects of mine...</h3>
+          <hr className={styles.seperator2}></hr>
+          <br/>
+          <br/>
           <Work />
         </center>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <Testimonials />
       </main>
       <Footer/>

@@ -40,9 +40,6 @@ const About = () => {
           <a href="/Testimonials.pdf" alt="Testimonials from Hack Reactor" target="_blank" rel="noopener noreferrer">
             <h1>View Hack Reactor Testimonials</h1>
           </a>
-          <h2>Let's Connect!</h2>
-          <Socials/>
-          <a href="mailto:bhattibytes@gmail.com"><h3 style={{marginBottom: "80px"}}>Email Me</h3></a>
         </div>
       <Footer />
     </>
