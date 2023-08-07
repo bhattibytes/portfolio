@@ -56,11 +56,11 @@
 }
 
 .btn {
-  color: #6e07f3;
+  color: #6e07f3 !important;
 }
 
 .btn:hover {
-  color: #5BE9B9;
+  color: #5BE9B9 !important;
 }
 
 .section {
