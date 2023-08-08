@@ -1,0 +1,29 @@
+import portfolio from "../public/portfolio.js";
+import Carousel from "react-elastic-carousel";
+import styles from "../styles/Home.module.css";
+
+export default function ElasticCarouselSyv() {
+  return (
+    <center className={styles.portfolio}>
+      <div>
+        <div>
+          <h3>An Online Voting Platform</h3>
+        </div>
+        <hr className={styles.seperator2} />
+        <div className={styles.portCarOuter}>
+          <Carousel>
+            {portfolio.projects.syv.map((item) => (
+              <center key={item.id} className={styles.portCar}>
+                <div className={styles.portCarInner}>
+                  <h2>{item.name}</h2>
+                  <img src={item.imgURL} className={styles.portIMG} />
+                  <p className={styles.para}>{item.summary}</p>
+                </div>
+              </center>
+            ))}
+          </Carousel>
+        </div>
+      </div>
+    </center>
+  );
+}

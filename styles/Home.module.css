@@ -73,8 +73,9 @@
 
 .sectionApp {
   background-color: #6e07f3;
+  font-size: 34px;
   width: 90%;
-  height: 200px;
+  height: 300px;
   border: 2px solid black;
   margin-top: 20px;
   border-radius: 5px;
@@ -91,7 +92,6 @@
   padding-top: 30px;
   color: white;
   font-size: 40px;
-  
 }
 
 .homeBioSummary {
@@ -308,6 +308,47 @@
   width: 90%;
 }
 
+.portfolio {
+  width: 100%;
+}
+
+.portIMG {
+    width: 900px;
+    height: 540px;
+  }
+
+.portCar {
+  width: 90%;
+  height: 100%;
+}
+
+.portCarOuter {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  background-color: whitesmoke;
+}
+
+.portCarInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.para {
+  font-size: 22px;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -328,14 +369,14 @@
 @media screen and (max-width: 1550px) {
   .social {
     width: 50%;
-   justify-content: space-between;
- }
+    justify-content: space-between;
+  }
 
- .socialContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
- }
+  .socialContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
   .aboutText {
     width: 70%;
@@ -343,6 +384,46 @@
 
   .heading{
     font-size: 45px;
+  }
+
+  .portfolio {
+    width: 100%;
+  }
+  
+  .portIMG {
+    width: 700px;
+    height: 420px;
+  }
+  
+  .portCar {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .portCarOuter {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+  }
+  
+  .portCarInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sectionApp {
+    background-color: #6e07f3;
+    font-size: 26px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px black;
   }
 }
 
@@ -354,6 +435,18 @@
 
   .git {
     font-size: 24px;
+  }
+
+  .portIMG {
+    width: 600px;
+    height: 360px;
+  }
+
+  .portCarOuter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -412,6 +505,11 @@
     line-height: 50px;
   }
 
+  .portIMG {
+    width: 450px;
+    height: 270px;
+  }
+
   .homeBioSummary {
     font-size: 20px;
     margin-left: 10%;
@@ -426,9 +524,9 @@
     justify-content: space-between;
  }
 
- .socialContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
- }
+  .socialContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
