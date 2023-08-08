@@ -112,24 +112,24 @@
   font-size: 18px;
 }
 
-.row {
+.rowOfTitles {
   display: table;
   clear: both;
-  margin-top: -100px;
+  margin-top: -160px;
 }
 
-.column {
+.columnTitles {
   font-weight: bold;
   float: left;
   padding-top: 20px;
-  margin-left: 8px;
+  margin-left: 12px;
   margin-bottom: 200px;
   width: 400px;
   height: 720px;
   background-color: white;
-  border: 1px solid black;
+  border: 1px ridge black;
   border-radius: 25px;
-  box-shadow: 4px 4px #5BE9B9;
+  box-shadow: 5px 5px #5BE9B9;
 }
 
 .headline {

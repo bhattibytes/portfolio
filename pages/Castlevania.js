@@ -8,7 +8,7 @@ const Castlevania = () => {
       <ResponsiveAppBar />
       <center>
         <h1 className={styles.games}>Castlevania: Symphony of the Night</h1>
-        <iframe className={styles.iframe} src="https://www.retrogames.cc/embed/41504-castlevania-symphony-of-the-night.html" width="1000" height="750" frameBorder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
+        <iframe className={styles.iframe} src="https://www.retrogames.cc/embed/41504-castlevania-symphony-of-the-night.html" width="1000" height="750" frameBorder="no" allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
       </center>
       <Footer />
     </div>

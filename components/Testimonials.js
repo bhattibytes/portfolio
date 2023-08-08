@@ -2,7 +2,7 @@ import items from "../public/Items.js";
 import Carousel from "react-elastic-carousel";
 import styles from "../styles/Home.module.css";
 
-export default function ElasticCarousel() {
+export default function ElasticCarouselTestimonials() {
   return (
     <center>
       <div className={styles.container}>
