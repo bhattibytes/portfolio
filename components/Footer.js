@@ -12,13 +12,13 @@ const Footer = () => {
       </span>
       
       <br/>
-      <p style={{ fontSize: "24px", textAlign: "center" }}>
+      <p style={{ fontSize: "24px", textAlign: "center", fontFamily: "fantasy" }}>
         Living, learning, & leveling up 
         <br/>
         one day at a time.
       </p>
       <Socials />
-      <p style={{ fontSize: "18px" }}>
+      <p style={{ fontSize: "18px", fontFamily: "ui-rounded" }}>
         &nbsp;
         Handcratfed by Jason Bhatti aka BhattiBytes
       </p>

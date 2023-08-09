@@ -225,6 +225,7 @@
   width: 600px;
   height: 400px;
   margin-left: 15px;
+  margin-top: 100px;
 } 
 
 .social {
@@ -312,9 +313,14 @@
 }
 
 .portIMG {
-    width: 900px;
-    height: 540px;
-  }
+  width: 900px;
+  height: 540px;
+}
+
+.gitCarImg {
+  width: 800px;
+  height: 600px;
+}
 
 .portCar {
   width: 90%;
@@ -333,6 +339,31 @@
   padding-top: 30px;
 }
 
+.gitCarOuter {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: #5BE9B9;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  color: #6e07f3;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.gitStreak {
+  position: absolute;
+  top: 860px;
+}
+
+.gitTrophy {
+  position: absolute;
+  top: 1380px;
+}
 .portCarInner {
   display: flex;
   flex-direction: column;
@@ -390,6 +421,11 @@
     width: 700px;
     height: 420px;
   }
+
+  .gitCarImg {
+    width: 600px;
+    height: 450px;
+  }
   
   .portCar {
     width: 100%;
@@ -420,6 +456,14 @@
     margin-top: 20px;
     box-shadow: inset 0 0 10px black;
   }
+
+  .gitPro {
+    font-size: 50px;
+  }
+
+  .para {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -437,11 +481,24 @@
     height: 360px;
   }
 
+  .gitCarImg {
+    width: 400px;
+    height: 300px;
+  }
+
   .portCarOuter {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
+  }
+
+  .gitPro {
+    font-size: 40px;
+  }
+
+  .para {
+    font-size: 18px;
   }
 }
 
@@ -505,10 +562,19 @@
     height: 270px;
   }
 
+  .gitCarImg {
+    width: 300px;
+    height: 225px;
+  }
+
   .homeBioSummary {
     font-size: 20px;
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .para {
+    font-size: 16px;
   }
 }
 
@@ -532,5 +598,19 @@
     height: 220px;
     border: 2px solid black;
     margin-top: 20px;
+  }
+
+  .gitCarImg {
+    width: 200px;
+    height: 150px;
+  }
+
+  .para {
+    font-size: 12px;
+  }
+
+  .portIMG {
+    width: 350px;
+    height: 210px;
   }
 }
