@@ -10,11 +10,18 @@ const Footer = () => {
       <span>
         <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16}/>
       </span>
-      <p>
-      &nbsp;
-      Handcratfed by Jason Bhatti aka BhattiBytes
+      
+      <br/>
+      <p style={{ fontSize: "24px", textAlign: "center" }}>
+        Living, learning, & leveling up 
+        <br/>
+        one day at a time.
       </p>
       <Socials />
+      <p style={{ fontSize: "18px" }}>
+        &nbsp;
+        Handcratfed by Jason Bhatti aka BhattiBytes
+      </p>
     </footer>
   )
 
