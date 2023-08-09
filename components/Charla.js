@@ -7,7 +7,7 @@ export default function ElasticCarouselCharla() {
     <center className={styles.portfolio}>
       <div>
         <div>
-          <h3>Community Intelligence - SaaS Platform</h3>
+          <h3> **A Side Project that became a Tech Company**</h3>
         </div>
         <hr className={styles.seperator2} />
         <div className={styles.portCarOuter}>

@@ -7,7 +7,7 @@ export default function ElasticCarouselCatwalk() {
     <center className={styles.portfolio}>
       <div>
         <div>
-          <h3>Atelier New York - Clone</h3>
+          <h3>**An Ecommerce Project**</h3>
         </div>
         <hr className={styles.seperator2} />
         <div className={styles.portCarOuter}>

@@ -12,7 +12,7 @@ const SyvPage = () => {
       </p>
     </a>
     <p style={{ textAlign: "center", fontSize: "36px" }}>
-      A Capstone Project
+      Online Voting & Election Information Application
     </p>
     <Syv />
     <br />

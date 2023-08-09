@@ -12,7 +12,7 @@ const CharlaPage = () => {
       </p>
     </a>
     <p style={{ textAlign: "center", fontSize: "36px" }}>
-      A Side Project that became a Tech Company
+      Community Intelligence - SaaS Platform
     </p>
     <Charla />
     <br />

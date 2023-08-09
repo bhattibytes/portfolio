@@ -16,7 +16,7 @@ const Projects = () => {
             <a href="https://www.f6s.com/company/charla-technologies-inc#about" target="_blank" rel="noopener noreferrer">
               <h1 className={styles.heading}>Charla Technologies, Inc.</h1>
             </a>
-            <h2> **A Side Project that became a Tech Company**</h2>
+            <h2>Community Intelligence - SaaS Platform</h2>
           </center>
         </section> 
         <Charla /> 
@@ -24,9 +24,9 @@ const Projects = () => {
         <section className={styles.sectionApp}>
           <center style={{ marginTop: '40px', color: 'white' }}>
             <a href="https://syv-theta.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <h1 className={styles.heading}>Secure Your Vote App</h1>
+              <h1 className={styles.heading}>Secure Your Vote</h1>
             </a>
-            <h2>**A Capstone Project**</h2>
+            <h2>Online Voting & Election Information Application</h2>
           </center>
         </section>
         <Syv />
@@ -36,7 +36,7 @@ const Projects = () => {
             <a href="https://github.com/bhattibytes/Catwalk" target="_blank" rel="noopener noreferrer">
               <h1 className={styles.heading}>Catwalk</h1>
             </a>
-            <h2>**An Ecommerce Project**</h2>
+            <h2>Atelier New York - Clone</h2>
           </center>
         </section>
         <Catwalk />

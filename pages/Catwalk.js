@@ -12,7 +12,7 @@ const CatwalkPage = () => {
       </p>
     </a>
     <p style={{ textAlign: "center", fontSize: "36px" }}>
-    An Ecommerce Project
+      Atelier New York - Clone
     </p>
     <Catwalk />
     <br />

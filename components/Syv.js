@@ -7,7 +7,7 @@ export default function ElasticCarouselSyv() {
     <center className={styles.portfolio}>
       <div>
         <div>
-          <h3>An Online Voting Platform</h3>
+          <h3>**A Capstone Project**</h3>
         </div>
         <hr className={styles.seperator2} />
         <div className={styles.portCarOuter}>
