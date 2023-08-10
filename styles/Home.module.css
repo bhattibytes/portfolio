@@ -1,6 +1,6 @@
 /* Start Testimonials carousel */
 .container {
-  margin: 5rem 0;
+  margin: 3rem 0;
   width: 50%;
   padding: 20px;
   border-radius: 15px;
@@ -146,11 +146,17 @@
 .games {
   text-align: center;
   margin-top: 75px;
-  font-size: 60px;
-  border: 2px solid black;
+  font-size: 50px;
   border-radius: 50px;
   width: 50%;
-  background-color: whitesmoke;
+}
+
+.funGamesSection {
+  background-color: #6e07f3; 
+  height: 350px; 
+  margin-bottom: 0px; 
+  color: white;
+  box-shadow: inset 0 10px 20px #000000;
 }
 
 .titles {
@@ -393,7 +399,7 @@
   box-shadow: inset 0 0 10px #000000;
 }
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1300px) {
   .social {
     width: 50%;
     justify-content: space-between;
@@ -464,6 +470,28 @@
   .para {
     font-size: 20px;
   }
+
+  .games {
+    font-size: 36px;
+  }
+
+  .gameTitles {
+    font-size: 30px !important;
+  }
+
+  .container {
+    margin: 2rem 0;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .rowOfTitles {
+    display: flex;
+    flex-direction: column;
+    clear: both;
+    margin-top: -100px;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -500,6 +528,15 @@
   .para {
     font-size: 18px;
   }
+
+  .rowOfTitles {
+    margin-top: -50px;
+  }
+
+  .homeBioSummary {
+    font-size: 20px;
+  }
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -546,6 +583,7 @@
   .git {
     font-size: 20px;
   }
+
   .gitImg {
     width: 90%;
     margin-left: 15px;
@@ -575,6 +613,16 @@
 
   .para {
     font-size: 16px;
+  }
+
+  .gameTitles {
+    font-size: 20px !important;
+  }
+
+
+  .gameIMG {
+    width: 370px;
+    height: 222px;
   }
 }
 

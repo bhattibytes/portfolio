@@ -7,8 +7,8 @@ export default function ElasticCarouselGames() {
     <center>
       <div className={styles.container}>
         <div>
-          <h1>Payable Retro Games</h1>
-          <h3>These are my favorite retro games to enjoy...</h3>
+          <h1 >Playable Retro Games</h1>
+          <h3>Enjoy these handpicked classic NES and SNES games...</h3>
         </div>
         <hr className={styles.seperator} />
         <div className={styles.contWrapper}>
@@ -16,10 +16,12 @@ export default function ElasticCarouselGames() {
             {videogames.games.map((game) => (
               <center key={game.id}><div
                 className={styles.card}>
-                 <h1 className={styles.titles}>{game.name}</h1>
+                 <h1 className={styles.gameTitles}>{game.name}</h1>
                  <br/>
                  <center>
-                    <a href={game.href}><img src={game.src} alt={game.name} width={550} height={367} /></a>
+                    <a href={game.href}>
+                      <img src={game.src} alt={game.name} width={550} height={367} className={styles.gameIMG}/>
+                    </a>
                  </center>
               </div>
               </center>
