@@ -18,10 +18,10 @@ const GitHub = () => {
             cursor: '',
           }}
           onInit={(typewriter) => {
-          typewriter.typeString('<h1>Hi 👋,&nbsp; I Am <br></br>Jason Bhatti</h1>')
+          typewriter.typeString('<h1>Hi, 👋 I Am <br></br>Jason Bhatti</h1>')
             .pauseFor(2000)
             .deleteAll()
-            .typeString('<h1>A&nbsp; Passionate <br></br>Full Stack Developer</h1>')
+            .typeString('<h1>A Passionate <br></br>Full Stack Developer</h1>')
             .pauseFor(2500)
             .deleteAll()
             .pauseFor(1500)
@@ -29,9 +29,13 @@ const GitHub = () => {
           }} />
         </div>
         <br/>
-        <a href='https://github.com/bhattibytes' target="_blank"><h2 className={styles.gitPro}>👉 Link to GitHub Profile 👈</h2></a>  
-        <h4>Tech 🚀 Stack</h4>
-          <TechStack />
+        <a href='https://github.com/bhattibytes' target="_blank"><h2 className={styles.gitPro}>👉 Link to GitHub Profile 👈</h2></a>
+        <section className={styles.sectionTech}> 
+          <h4 className={styles.gitTech}>Tech 🚀 Stack</h4>
+          <center>
+            <TechStack />
+          </center>
+        </section> 
          {/* GitHub Streak */}
          <h4 className={styles.gitStreak}>GitHub ☄️ Streak</h4>
           <img className={styles.gitImg} align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bhattibytes&" alt="bhattibytes"/>

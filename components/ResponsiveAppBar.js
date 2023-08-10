@@ -11,7 +11,6 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import LinearDeterminate from './LinearDeterminate';
-import styles from '../styles/Home.module.css';
 
 const pages = ['About', 'Applications', 'Github', 'Fun&Games'];
 
