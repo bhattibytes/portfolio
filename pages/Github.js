@@ -9,27 +9,30 @@ const GitHub = () => {
   return (
     <>
       <ResponsiveAppBar />
-      <div className={styles.git}>
-        <div className={styles.gitType}> 
-          <Typewriter
-          options={{
-            autoStart: true,
-            loop: true,
-            cursor: '',
-          }}
-          onInit={(typewriter) => {
-          typewriter.typeString('<h1>Hi, 👋 I Am <br></br>Jason Bhatti</h1>')
-            .pauseFor(2000)
-            .deleteAll()
-            .typeString('<h1>A Passionate <br></br>Full Stack Developer</h1>')
-            .pauseFor(2500)
-            .deleteAll()
-            .pauseFor(1500)
-            .start();
-          }} />
-        </div>
-        <br/>
-        <a href='https://github.com/bhattibytes' target="_blank"><h2 className={styles.gitPro}>👉 Link to GitHub Profile 👈</h2></a>
+        <div className={styles.git}>
+          <div className={styles.gitBG}>
+            <div className={styles.gitType}> 
+              <Typewriter
+              options={{
+                autoStart: true,
+                loop: true,
+                cursor: '',
+              }}
+              onInit={(typewriter) => {
+              typewriter.typeString('<h1>Hi, 👋 I Am <br></br>Jason Bhatti</h1>')
+                .pauseFor(2000)
+                .deleteAll()
+                .typeString('<h1>A Passionate <br></br>Full Stack Developer</h1>')
+                .pauseFor(2500)
+                .deleteAll()
+                .pauseFor(1500)
+                .start();
+              }} />
+            </div>
+            <a href='https://github.com/bhattibytes' target="_blank">
+              <h2 className={styles.gitPro}>👉 Link to GitHub Profile 👈</h2>
+            </a>
+          </div>
         <section className={styles.sectionTech}> 
           <h4 className={styles.gitTech}>Tech 🚀 Stack</h4>
           <center>

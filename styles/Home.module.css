@@ -157,7 +157,8 @@
 }
 
 .gitPro {
-  font-size: 50px;
+  font-size: 40px;
+  margin-top: 380px;
 }
 
 .games {
@@ -237,6 +238,18 @@
   margin-top: 40px;
 }
 
+.gitBG {
+  background-image: url("../assets/githubBG.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 540px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  color: white;
+}
+
 .gitTech {
   color: white;
 }
@@ -245,6 +258,13 @@
   height: 250px;
   text-align: center;
   line-height: 75px;
+  margin-bottom: 100px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 .gitImg {
@@ -378,12 +398,12 @@
 
 .gitStreak {
   position: absolute;
-  top: 880px;
+  top: 910px;
 }
 
 .gitTrophy {
   position: absolute;
-  top: 1300px;
+  top: 1330px;
 }
 
 .portCarInner {
@@ -551,12 +571,12 @@
 
   .gitStreak {
     position: absolute;
-    top: 800px;
+    top: 890px;
   }
   
   .gitTrophy {
     position: absolute;
-    top: 1210px;
+    top: 1px;
   }
 
   .para {
