@@ -632,6 +632,19 @@
     font-size: 18px;
   }
 
+  .cardMedia {
+    height: 300px; 
+    width: 390px; 
+    margin-bottom: 150px;
+    margin-left: 0px;
+  }
+
+  .work {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
   .rowOfTitles {
     margin-top: -50px;
   }
@@ -799,26 +812,6 @@
   .gitTrophy {
     position: absolute;
     top: 1300px;
-  }
-
-  .work {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .myWorkHome {
-    top: 3800px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .cardMedia {
-    height: 300px; 
-    width: 390px; 
-    margin-top: 10px;
-    margin-left: 0px;
   }
 
   .footerQuote {

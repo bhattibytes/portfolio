@@ -12,6 +12,14 @@ export default function Work() {
   const [hover, setHover] = useState(false);
   const [id, setId] = useState(0);
 
+  let screenWidth;
+  
+  if (typeof window !== 'undefined') {
+    screenWidth = window.innerWidth;
+  } else {
+    screenWidth = 1000;
+  }
+
   return (
     <div className={styles.work}>
       { works.projects.map(work => 
@@ -37,9 +45,9 @@ export default function Work() {
                   image={hover && id == work.id ? work.black : work.imgURL}
                 />
                 { hover && id == work.id ?
-                <div className={styles.myWorkHome}>
-                  <center style={{ color: "white" }}>
-                    <CardContent style={{ color: "white" }}>
+                <div className={screenWidth > 1300 ? styles.myWorkHome : null}>
+                  <center >
+                    <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                       {work.name}
                     </Typography>
