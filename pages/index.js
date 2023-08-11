@@ -88,7 +88,6 @@ export default function Home() {
               <p className={styles.blurb}>API</p>
               <p className={styles.blurb}>Zapier</p>
               <p className={styles.blurb}>Lambda</p>
-              <p className={styles.blurb}>ISC</p>
             </div>
           </section>
         </center>
