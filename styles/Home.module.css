@@ -23,6 +23,11 @@
   box-shadow: 2px 2px #5BE9B9;
 }
 
+.testImg {
+  border-radius: 100px; 
+  height: 150px; 
+}
+
 .carousWrapper {
   width: 100%;
 }
@@ -48,11 +53,25 @@
 }
 /* End Testimonials carousel */
 
+
+/* My Work */
 .work {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 80%;
+}
+
+.myWorkHome {
+  position: absolute; 
+  color: white; 
+  top: 2440px;
+}
+
+.cardMedia {
+  height: 300px; 
+  width: 500px; 
+  margin-left: 10px;
 }
 
 .btn {
@@ -63,6 +82,10 @@
   color: #5BE9B9 !important;
 }
 
+/* My Work End */
+
+
+/* Sections Start  */
 .section {
   background-color: #6e07f3;
   width: 100%;
@@ -71,8 +94,6 @@
   border-bottom: 2px solid black;
 }
 
-
-/* Sections Start  */
 .sectionApp {
   background-color: #6e07f3;
   font-size: 34px;
@@ -88,12 +109,20 @@
   background-color: #6e07f3;
   font-size: 34px;
   width: 100%;
-  height: 300px;
+  height: 350px;
   text-align: center;
   border: 2px solid black;
   margin-top: 20px;
   margin-bottom: 60px;
   box-shadow: inset 0 0 10px black;
+}
+
+.funGamesSection {
+  background-color: #6e07f3; 
+  height: 350px; 
+  margin-bottom: 0px; 
+  color: white;
+  box-shadow: inset 0 10px 20px #000000;
 }
 /* Sections End  */
 
@@ -167,14 +196,6 @@
   font-size: 50px;
   border-radius: 50px;
   width: 50%;
-}
-
-.funGamesSection {
-  background-color: #6e07f3; 
-  height: 350px; 
-  margin-bottom: 0px; 
-  color: white;
-  box-shadow: inset 0 10px 20px #000000;
 }
 
 .titles {
@@ -272,33 +293,12 @@
   height: 400px;
   margin-left: 15px;
 } 
+
+.gitContrib {
+  margin-top: -10px;
+}
 /* GitHub Page End */
 
-.social {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 20%;
-}
-
-.socialContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.socialTitle {
-  font-size: 1.2rem;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1rem;
-  text-decoration: underline;
-}
 
 .about {
   display: flex;
@@ -309,11 +309,21 @@
   margin: 10px;
 }
 
-.header {
+.aboutHeader {
   padding-top: 40px;
   font-size: 4rem;
-  font-size: 60px;
+  font-size: 50px;
 }
+
+.aboutBody {
+  font-size: 16px; 
+  font-family: ui-rounded;
+}
+
+.aboutFiles {
+  text-align: center;
+}
+
 
 .profilePic {
   border-radius: 150px;
@@ -398,12 +408,12 @@
 
 .gitStreak {
   position: absolute;
-  top: 910px;
+  top: 970px;
 }
 
 .gitTrophy {
   position: absolute;
-  top: 1330px;
+  top: 1390px;
 }
 
 .portCarInner {
@@ -416,6 +426,32 @@
 
 .para {
   font-size: 22px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.socialContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.socialTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  text-decoration: underline;
 }
 
 .footer {
@@ -432,7 +468,20 @@
   background-color: #6e07f3;
   background-position: 0% 0%;
   bottom: 0pt;
-  box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 30px #000000;
+}
+
+
+.footerQuote {
+  font-size: 24px; 
+  text-align: center; 
+  font-family: fantasy;
+
+}
+
+.handFooter {
+ font-size: 18px; 
+ font-family: ui-rounded;
 }
 
 @media screen and (max-width: 1300px) {
@@ -604,7 +653,7 @@
 
   .heading{
     margin-left: 10px;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .summary{
@@ -626,7 +675,7 @@
     flex-direction: column;  
     align-items: space-evenly;
     height: 300px;
-    font-size: .75rem;
+    font-size: .6rem;
   }
 
   .footer span {
@@ -647,7 +696,7 @@
   } 
 
   .sectionTech {
-    height: 200px;
+    height: 220px;
   }
 
   .gitType {
@@ -672,7 +721,7 @@
   }
 
   .homeBioSummary {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -704,14 +753,34 @@
     justify-content: space-evenly;
   }
 
+  .section {
+    height: 500px;
+  }
+
   .sectionApp {
     background-color: #6e07f3;
     font-size: 16px;
     width: 100%;
-    height: 220px;
+    height: 240px;
     border: 2px solid black;
     margin-top: 20px;
   }
+
+  .funGamesSection {
+    height: 450px;
+  }
+
+  .homeBio {
+    margin-top: 40px;
+    font-size: 30px;
+  }
+
+  .columnTitles {
+    margin-left: 0px;
+    width: 360px;
+    margin-bottom: 40px;
+  }
+  
 
   .gitCarImg {
     width: 200px;
@@ -723,7 +792,40 @@
   }
 
   .portIMG {
-    width: 350px;
-    height: 210px;
+    width: 200px;
+    height: 120px;
+  }
+
+  .gitTrophy {
+    position: absolute;
+    top: 1300px;
+  }
+
+  .work {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .myWorkHome {
+    top: 3800px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardMedia {
+    height: 300px; 
+    width: 390px; 
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .footerQuote {
+    font-size: 18px; 
+  }
+
+  .handFooter {
+    font-size: 15px;
   }
 }

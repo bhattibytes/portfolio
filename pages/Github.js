@@ -46,7 +46,7 @@ const GitHub = () => {
         <h4 className={styles.gitTrophy}>GitHub 🏆 Case</h4>
         <a href="https://github.com/ryo-ma/github-profile-trophy"><img className={styles.gitImg} src="https://github-profile-trophy.vercel.app/?username=bhattibytes" alt="bhattibytes" /></a>
         {/* GitHub Commits */}
-        <h4>GitHub ⭐ Contributions</h4>
+        <h4 className={styles.gitContrib}>GitHub ⭐ Contributions</h4>
         <GitCarousel />
       </div>
       <Footer />

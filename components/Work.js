@@ -16,7 +16,7 @@ export default function Work() {
     <div className={styles.work}>
       { works.projects.map(work => 
       <div
-        style={{ height: "300px", width: "500px", marginLeft: "10px"}} 
+        className={styles.cardMedia} 
         key={work.id} 
         onMouseEnter={(evt) => {
           setHover(true);
@@ -37,7 +37,7 @@ export default function Work() {
                   image={hover && id == work.id ? work.black : work.imgURL}
                 />
                 { hover && id == work.id ?
-                <div style={{ position: "absolute", color: "white", top: "2440px" }}>
+                <div className={styles.myWorkHome}>
                   <center style={{ color: "white" }}>
                     <CardContent style={{ color: "white" }}>
                     <Typography gutterBottom variant="h5" component="div">

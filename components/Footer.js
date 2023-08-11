@@ -12,15 +12,15 @@ const Footer = () => {
       </span>
       
       <br/>
-      <p style={{ fontSize: "24px", textAlign: "center", fontFamily: "fantasy" }}>
+      <p className={styles.footerQuote}>
         Living, learning, & leveling up 
         <br/>
         one day at a time.
       </p>
       <Socials />
-      <p style={{ fontSize: "18px", fontFamily: "ui-rounded" }}>
+      <p className={styles.handFooter}>
         &nbsp;
-        Handcratfed by Jason Bhatti aka BhattiBytes
+        Handcratfed by me © BhattiBytes
       </p>
     </footer>
   )

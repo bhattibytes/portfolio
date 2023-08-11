@@ -9,10 +9,10 @@ const About = () => {
     <>
       <ResponsiveAppBar />
         <div className={styles.about}>
-          <h1 className={styles.header}>About Me</h1>
+          <h1 className={styles.aboutHeader}>About Me</h1>
           <Image className={styles.profilePic} src={profile2} alt="profile" height="300px" width="300px"/>
           <div className={styles.aboutText}>
-          <p style={{ fontSize: "16px", fontFamily: "ui-rounded" }}>
+          <p className={styles.aboutBody}>
             I am Jason Bhatti, a highly skilled and accomplished professional with a proven track record in the "Software as a Service" - (SaaS) technology sector. Over the course of several years, I have honed my expertise through various roles in leading SaaS companies. My career has been driven by an unwavering curiosity for understanding systems and a relentless pursuit of improvement.
             
             Throughout my professional journey, I have been at the forefront of driving significant enhancements for organizations. By focusing on increasing efficiency, usability, user experience, and accessibility, I have effectively contributed to the growth and success of the companies I've been associated with.
@@ -30,7 +30,7 @@ const About = () => {
             My skill set encompasses a diverse range of specialties, including agile acquisition of new skills and programming languages, effective management of software engineering teams, adept problem-solving capabilities, and a keen understanding of responsive design principles. Additionally, I possess expertise in website optimization, SEO, User Experience Design (UXD), and the Model View Controller (MVC) method of code organization. I have hands-on experience with an array of technologies such as HTML, CSS, JavaScript, jQuery, React.JS, Next.JS, Node.JS, Express.JS, Tailwind CSS, Material UI, GraphQL, MongoDB, Mongoose, MySQL, Postgres, Sequelize, and AWS services such as EC2, IAM, S3, Lambda, Amplify, DynamoDB, and Dynamoose. My proficiency extends to CI/CD tools like Vercel, Netlify, and AWSPipeline, as well as version control using Git and GitHub. Currently, I am actively learning Python and Typescript, continuously expanding my coding wheelhouse to integrate additional programming languages, frameworks, and principles.
           </p>
           </div>
-          <div style={{ textAlign: "center" }}>
+          <div className={styles.aboutFiles}>
             <a href="/Jason_Bhatti-Resume.pdf" alt="Jason_Bhatti_CV" target="_blank" rel="noopener noreferrer">
               <h1>View My Resume</h1>
             </a>

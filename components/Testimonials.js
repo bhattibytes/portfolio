@@ -17,7 +17,7 @@ export default function ElasticCarouselTestimonials() {
               <center key={item.id}><div
                 className={styles.card}
               >
-                <img src={item.imageUrl} style={{ borderRadius: "100px", height: "150px" }}/>
+                <img src={item.imageUrl} className={styles.testImg}/>
                 <p>"{item.testimonial}"</p>
                 <h2>{item.name}</h2>
                 <h3>{item.title}</h3>
