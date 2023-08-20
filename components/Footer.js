@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import Socials from './Socials';
+import Vercel from '../assets/vercel.png';
 
 const Footer = () => {
 
@@ -8,7 +9,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       Powered by &nbsp;
       <span>
-        <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16}/>
+        <Image src={Vercel} alt="Vercel Logo" width={100} height={56}/>
       </span>
       
       <br/>
