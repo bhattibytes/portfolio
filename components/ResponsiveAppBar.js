@@ -11,11 +11,15 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import LinearDeterminate from './LinearDeterminate';
+import Image from 'next/image';
+import Logo from '../assets/BB.png';
+import LogoWhite from '../assets/BBWhite.png';
 
 const pages = ['About', 'Applications', 'Github', 'Fun&Games'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
+  const [id, setId] = useState(0);
 
   const handleOpenHamburgerMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -67,7 +71,8 @@ const ResponsiveAppBar = () => {
               textDecoration: 'none',
             }}
           > 
-          &nbsp;BhattiBytes
+          {/* &nbsp;BhattiBytes */}
+          <Image id={1} onMouseEnter={() => setId(1)} onMouseLeave={() => setId(0)} src={id == 1 ? Logo : LogoWhite } alt="BhattiBytes Logo" width={60} height={60} />
           </Typography>
         
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

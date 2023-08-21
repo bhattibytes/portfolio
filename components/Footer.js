@@ -2,17 +2,19 @@ import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import Socials from './Socials';
 import Vercel from '../assets/vercel.png';
+import BB from '../assets/BBWhite.png';
 
 const Footer = () => {
 
   return (
     <footer className={styles.footer}>
-      Powered by &nbsp;
+      Powered by
       <span>
         <Image src={Vercel} alt="Vercel Logo" width={100} height={56}/>
-      </span>
-      
-      <br/>
+      </span>   
+      <span>
+        <Image src={BB} alt="BhattiBytes Logo" width={60} height={60}/>  
+      </span> 
       <p className={styles.footerQuote}>
         Living, learning, & leveling up 
         <br/>
