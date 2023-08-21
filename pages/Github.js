@@ -20,12 +20,14 @@ const GitHub = () => {
               }}
               onInit={(typewriter) => {
               typewriter.typeString('<h1>Hi, 👋 I Am <br></br>Jason Bhatti</h1>')
-                .pauseFor(2000)
+                .pauseFor(600)
                 .deleteAll()
                 .typeString('<h1>A Passionate <br></br>Full Stack Developer</h1>')
-                .pauseFor(2500)
+                .pauseFor(800)
                 .deleteAll()
-                .pauseFor(1500)
+                .typeString('<h1>Check Out<br></br>My GitHub Stats Below</h1>')
+                .pauseFor(2000)
+                .deleteAll()
                 .start();
               }} />
             </div>
