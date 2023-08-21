@@ -9,7 +9,6 @@ import works from '../public/works';
 import styles from '../styles/Home.module.css';
 
 export default function Work() {
-  const [hover, setHover] = useState(false);
   const [id, setId] = useState(0);
 
   let screenWidth;
@@ -26,14 +25,8 @@ export default function Work() {
       <div
         className={styles.cardMedia} 
         key={work.id} 
-        onMouseEnter={(evt) => {
-          setHover(true);
-          setId(evt.target.id);
-        }} 
-        onMouseLeave={(evt) => {
-          setHover(false);
-          setId(0);
-        }}>
+        onMouseEnter={(evt) => setId(evt.target.id)} 
+        onMouseLeave={() => setId(0)}>
         <Card>
             <div>
                 <CardMedia
@@ -42,9 +35,9 @@ export default function Work() {
                   alt="Dashboard"
                   height="300"
                   width={500}
-                  image={hover && id == work.id ? work.black : work.imgURL}
+                  image={ id == work.id ? work.black : work.imgURL }
                 />
-                { hover && id == work.id ?
+                { id == work.id ?
                 <div className={screenWidth > 1300 ? styles.myWorkHome : null}>
                   <center >
                     <CardContent>
