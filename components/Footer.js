@@ -2,7 +2,7 @@ import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import Socials from './Socials';
 import Vercel from '../assets/vercel.png';
-import BB from '../assets/BBWhite.png';
+import BB from '../assets/BBwhite.png';
 
 const Footer = () => {
 

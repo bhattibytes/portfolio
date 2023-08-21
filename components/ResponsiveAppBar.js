@@ -13,7 +13,7 @@ import MenuItem from '@mui/material/MenuItem';
 import LinearDeterminate from './LinearDeterminate';
 import Image from 'next/image';
 import Logo from '../assets/BB.png';
-import LogoWhite from '../assets/BBWhite.png';
+import LogoWhite from '../assets/BBwhite.png';
 
 const pages = ['About', 'Applications', 'Github', 'Fun&Games'];
 
