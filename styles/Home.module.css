@@ -436,6 +436,10 @@
   width: 20%;
 }
 
+.socialImg {
+  border-radius: 5px;
+}
+
 .socialContainer {
   display: flex;
   flex-direction: row;

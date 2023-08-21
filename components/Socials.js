@@ -28,42 +28,42 @@ const Socials = () => {
       <div className={styles.social}>
         <Tooltip title="GitHub" arrow>
           <a id={1} onMouseEnter={() => setId(1)} onMouseLeave={() => setId(0)} href="https://github.com/bhattibytes" target="_blank" rel="noopener noreferrer">
-            <Image src={ id == 1 ? gitBlack : github } alt="github" height={30} width={30} style={{ borderRadius: "3px" }}/>
+            <Image src={ id == 1 ? gitBlack : github } alt="github" height={30} width={30} className={styles.socialImg}/>
           </a>
         </Tooltip>
         <Tooltip title="LinkedIn" arrow>
           <a id={2} onMouseEnter={() => setId(2)} onMouseLeave={() => setId(0)} href="https://www.linkedin.com/in/jasonbhatti/" target="_blank" rel="noopener noreferrer">
-            <Image src={ id == 2 ? linkedBlack : linkedin } alt="linkedin" height={30} width={30} style={{ borderRadius: "3px" }}/>
+            <Image src={ id == 2 ? linkedBlack : linkedin } alt="linkedin" height={30} width={30} className={styles.socialImg}/>
           </a>
         </Tooltip>
         <Tooltip title="Facebook" arrow>
           <a id={3} onMouseEnter={() => setId(3)} onMouseLeave={() => setId(0)} href="https://www.facebook.com/Bhattibytes" target="_blank" rel="noopener noreferrer">
-            <Image src={ id == 3 ? facebookBlack : facebook } alt="facebook" height={30} width={30}/>
+            <Image src={ id == 3 ? facebookBlack : facebook } alt="facebook" height={30} width={30} className={styles.socialImg}/>
           </a>
         </Tooltip>
         <Tooltip title="Twitter" arrow>
           <a id={4} onMouseEnter={() => setId(4)} onMouseLeave={() => setId(0)} href="https://twitter.com/BhattiBytes" target="_blank" rel="noopener noreferrer">
-            <Image src={ id == 4 ? twitterBlack : twitter } alt="twitter" height={30} width={30}/>
+            <Image src={ id == 4 ? twitterBlack : twitter } alt="twitter" height={30} width={30} className={styles.socialImg}/>
           </a>
         </Tooltip>
         <Tooltip title="Instagram" arrow>
           <a id={5} onMouseEnter={() => setId(5)} onMouseLeave={() => setId(0)} href="https://www.instagram.com/bhattibytes/" target="_blank" rel="noopener noreferrer">
-            <Image src={ id == 5 ? instagramBlack : instagram } alt="instagram" height={30} width={30}/>
+            <Image src={ id == 5 ? instagramBlack : instagram } alt="instagram" height={30} width={30} className={styles.socialImg}/>
           </a>
         </Tooltip>
         <Tooltip title="Pinterest" arrow>
           <a id={6} onMouseEnter={() => setId(6)} onMouseLeave={() => setId(0)} href="https://www.pinterest.com/bhattibytes/_saved/" target="_blank" rel="noopener noreferrer">
-            <Image src={ id == 6 ? pintrestBlack : pintrest } alt="pintrest" height={30} width={30}/>
+            <Image src={ id == 6 ? pintrestBlack : pintrest } alt="pintrest" height={30} width={30} className={styles.socialImg}/>
           </a>
         </Tooltip>
         <Tooltip title="WordPress" arrow>
           <a id={7} onMouseEnter={() => setId(7)} onMouseLeave={() => setId(0)} href="https://bhattibytes.wordpress.com/" target="_blank" rel="noopener noreferrer">
-            <Image src={ id == 7 ? wordpressBlack : wordpress } alt="wordpress" height={30} width={30}/>
+            <Image src={ id == 7 ? wordpressBlack : wordpress } alt="wordpress" height={30} width={30} className={styles.socialImg}/>
           </a>
         </Tooltip>
         <Tooltip title="Email" arrow>
           <a id={8} onMouseEnter={() => setId(8)} onMouseLeave={() => setId(0)} href="mailto:bhattibytes@gmail.com" target="_blank" rel="noopener noreferrer">
-            <Image src={ id == 8 ? mailBlack : mail } alt="email" height={32} width={30}/>
+            <Image src={ id == 8 ? mailBlack : mail } alt="email" height={32} width={30} className={styles.socialImg}/>
           </a>
         </Tooltip>
       </div>
