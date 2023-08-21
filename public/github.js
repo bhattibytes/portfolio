@@ -8,7 +8,7 @@ const github = {
     {
       "id": 2,
       "name": "Commits In 2023",
-      "imgURL": "https://images2.imgbox.com/90/22/QLTRke8k_o.png",
+      "imgURL": "https://images2.imgbox.com/51/02/dxfaiLpW_o.png",
     },
     {
       "id": 3,
