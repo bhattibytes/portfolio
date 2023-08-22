@@ -46,7 +46,7 @@ const GitHub = () => {
           <img className={styles.gitImg} align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bhattibytes&" alt="bhattibytes"/>
         {/* Trophy Case */}
         <h4 className={styles.gitTrophy}>GitHub 🏆 Case</h4>
-        <a href="https://github.com/ryo-ma/github-profile-trophy"><img className={styles.gitImg} src="https://github-profile-trophy.vercel.app/?username=bhattibytes" alt="bhattibytes" /></a>
+        <a href="https://github.com/ryo-ma/github-profile-trophy"><img className={styles.gitImg} src="https://github-profile-trophy.vercel.app/?username=bhattibytes&row=2&column=4" alt="bhattibytes" /></a>
         {/* GitHub Commits */}
         <h4 className={styles.gitContrib}>GitHub ⭐ Contributions</h4>
         <GitCarousel />

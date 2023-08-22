@@ -26,82 +26,82 @@ const TechStack = () => {
         <div className={styles.tech}>
           <Tooltip title="HTML5" arrow>
             <div>
-              <Image src={html} alt="html" height={55} width={55}/>
+              <Image src={html} alt="html" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="CSS3" arrow>
             <div>
-              <Image src={css} alt="css" height={55} width={55}/>
+              <Image src={css} alt="css" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="Tailwind CSS" arrow>
             <div>
-              <Image src={tw} alt="tailwindcss" height={55} width={55}/>
+              <Image src={tw} alt="tailwindcss" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="JavaScript" arrow>
             <div>
-              <Image src={js} alt="javascript" height={55} width={55}/>
+              <Image src={js} alt="javascript" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="TypeScript" arrow>
             <div>
-              <Image src={ts} alt="typescript" height={55} width={55}/>
+              <Image src={ts} alt="typescript" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="jQuery" arrow>
             <div>
-              <Image src={jq} alt="jQuery" height={55} width={55}/>
+              <Image src={jq} alt="jQuery" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="React.js" arrow>
             <div>
-              <Image src={react} alt="react" height={55} width={55}/>
+              <Image src={react} alt="react" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="Next.js" arrow>
             <div>
-              <Image src={next} alt="next" height={55} width={55}/>
+              <Image src={next} alt="next" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="GraphQL" arrow>
             <div>
-              <Image src={graph} alt="graphQL" height={55} width={55}/>
+              <Image src={graph} alt="graphQL" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="Redux.js" arrow>
             <div>
-              <Image src={redux} alt="redux" height={55} width={55}/>
+              <Image src={redux} alt="redux" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="Node.js" arrow>
             <div>
-              <Image src={node} alt="node" height={55} width={55}/>
+              <Image src={node} alt="node" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="Express.js" arrow>
             <div>
-              <Image src={express} alt="express" height={55} width={55}/>
+              <Image src={express} alt="express" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="PostgreSQL" arrow>
             <div>
-              <Image src={postgres} alt="postgreSQL" height={55} width={55}/>
+              <Image src={postgres} alt="postgreSQL" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="MongoDB" arrow>
             <div>
-              <Image src={mongo} alt="mongoDB" height={55} width={55}/>
+              <Image src={mongo} alt="mongoDB" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="Amazon Web Services" arrow>
             <div>
-              <Image src={aws} alt="aws" height={55} width={55}/>
+              <Image src={aws} alt="aws" height={65} width={65}/>
             </div>
           </Tooltip>
           <Tooltip title="Material UI" arrow>
             <div>
-              <Image src={mui} alt="mui" height={55} width={55}/>
+              <Image src={mui} alt="mui" height={65} width={65}/>
             </div>
           </Tooltip>
         </div>

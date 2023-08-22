@@ -295,7 +295,8 @@
 } 
 
 .gitContrib {
-  margin-top: -10px;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 /* GitHub Page End */
 
@@ -413,7 +414,7 @@
 
 .gitTrophy {
   position: absolute;
-  top: 1390px;
+  top: 1335px;
 }
 
 .portCarInner {
@@ -815,7 +816,7 @@
 
   .gitTrophy {
     position: absolute;
-    top: 1300px;
+    top: 1275px;
   }
 
   .footerQuote {
