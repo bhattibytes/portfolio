@@ -13,9 +13,10 @@ export default function Home() {
     <div>
       <Head>
         <title>BhattiBytes Portfolio</title>
-        <meta name="description" content="Portfolio By Jason Bhatti" />
-        <meta property="og:title" content="Welcome to BhattiBytes.com, My Portfolio Website" />
-        <meta property="og:image" content="https://images2.imgbox.com/63/ab/RLTxoekp_o.png" />
+        <meta name="author" content="Jason Bhatti" />
+        <meta name="description" property="og:description" content="Jason Bhatti's Portfolio Website" />
+        <meta name="image" property="og:image" content="https://images2.imgbox.com/63/ab/RLTxoekp_o.png" />
+        <meta name="title" property="og:title" content="Welcome to BhattiBytes.com, My Portfolio Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ResponsiveAppBar />
