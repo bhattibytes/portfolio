@@ -6,7 +6,7 @@ const SyvPage = () => {
   return (
   <>
     <ResponsiveAppBar />
-    <a href="https://syv-theta.vercel.app/" target="_blank">
+    <a href="https://secureyourvote.vercel.app/" target="_blank">
       <p style={{ marginTop: "100px", textAlign: "center", fontSize: "50px" }}>
         Secure Your Vote (SYV)
       </p>

@@ -23,7 +23,7 @@ const Projects = () => {
         <div id="syv"></div>
         <section className={styles.sectionApp}>
           <center style={{ marginTop: '40px', color: 'white' }}>
-            <a href="https://syv-theta.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://secureyourvote.vercel.app/" target="_blank" rel="noopener noreferrer">
               <h1 className={styles.heading}>Secure Your Vote</h1>
             </a>
             <h2>Online Voting & Election Information Application</h2>

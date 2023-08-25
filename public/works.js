@@ -15,7 +15,7 @@ const works = {
       "summary": "Online Voting Platform",
       "imgURL": "https://images2.imgbox.com/9d/c2/0GfcEcnC_o.png",
       "black": "https://img.freepik.com/premium-photo/background-gradient-black-overlay-abstract-background-black-night-dark-evening-with-space-text-background_661047-2507.jpg",
-      "visit": "https://syv-theta.vercel.app/",
+      "visit": "https://secureyourvote.vercel.app/",
       "learn": "/Syv"
     },
     {
