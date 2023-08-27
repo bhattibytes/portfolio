@@ -14,8 +14,9 @@ import LinearDeterminate from './LinearDeterminate';
 import Image from 'next/image';
 import Logo from '../assets/BB.png';
 import LogoWhite from '../assets/BBwhite.png';
+import styles from '../styles/Home.module.css';
 
-const pages = ['About', 'Applications', 'Github', 'Fun&Games'];
+const pages = ['About', 'Work', 'Github', 'Blog',  'Fun&Games'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -51,7 +52,7 @@ const ResponsiveAppBar = () => {
 
   return (
     <AppBar position="fixed"
-    style={{ backgroundColor: "#6e07f3"}}
+    className={styles.AppBar}
     sx={{ borderBottom: "1px solid white", height: "70px" }}
     >
       <Container maxWidth="xl">
@@ -72,7 +73,9 @@ const ResponsiveAppBar = () => {
             }}
           > 
           {/* &nbsp;BhattiBytes */}
-          <Image id={1} onMouseEnter={() => setId(1)} onMouseLeave={() => setId(0)} src={id == 1 ? Logo : LogoWhite } alt="BhattiBytes Logo" width={60} height={60} />
+          <div className={styles.Logo}>
+            <Image id={1} onMouseEnter={() => setId(1)} onMouseLeave={() => setId(0)} src={id == 1 ? Logo : LogoWhite } alt="BhattiBytes Logo" width={60} height={60} />
+          </div>
           </Typography>
         
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
