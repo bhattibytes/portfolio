@@ -19,7 +19,7 @@ const items = {
         "id": 3,
         "name": "Michael Weaver",
         "title": "Chief Executive Officer at Fairchild Media",
-        "imageUrl": "https://media.licdn.com/dms/image/D4D03AQGuAdGeOG_vNg/profile-displayphoto-shrink_200_200/0/1691013011690?e=1696464000&v=beta&t=nd7sbXN9mxmHWyfUBPP3hRge4zd1eUHXNeK7a3lxh7k",
+        "imageUrl": "https://media.licdn.com/dms/image/D4E03AQGprPtya8XnNA/profile-displayphoto-shrink_200_200/0/1691936088230?e=1698883200&v=beta&t=fGZoMguyoYQYf68kwTqbv6M2m7b1etAvdKkqgLzlFGk",
         "testimonial": "I've worked closely with Jason the last five months and respect his problem solving ability. Jason has consistently shown the ability to take a loosely defined problem and quickly find the solution. He is a valuable part of our team and consistently gets results week after week. He has excellent customer relationship management skills. Jason is an asset to our team as he would be to any company he works for. It has been a pleasure working with Jason and I'd gladly work with him on future endeavors."
       }, 
       {
