@@ -333,7 +333,7 @@
 .aboutFiles {
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .aboutDocs {
@@ -341,7 +341,8 @@
 }
 
 .docContainer {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  margin-right: 10px;
 }
 
 .profilePic {
