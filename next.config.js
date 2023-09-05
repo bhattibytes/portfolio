@@ -11,14 +11,14 @@ module.exports = {
       use: {
         loader: 'file-loader',
         options: {
-          name: ['Jason_Bhatti-Resume.pdf', 'HRCertificate.pdf', 'Testimonials.pdf'],
+          name: ['Jason_Bhatti-Resume-SE-1.pdf', 'HRCertificate.pdf', 'Testimonials.pdf'],
         },
       }
     });
     return config;
   },
   images: {
-    domains: ['pngpress.com'],
+    domains: ['pngpress.com', 'images2.imgbox.com'],
   },
   nextConfig
 }

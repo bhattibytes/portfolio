@@ -30,22 +30,30 @@ const About = () => {
             My skill set encompasses a diverse range of specialties, including agile acquisition of new skills and programming languages, effective management of software engineering teams, adept problem-solving capabilities, and a keen understanding of responsive design principles. Additionally, I possess expertise in website optimization, SEO, User Experience Design (UXD), and the Model View Controller (MVC) method of code organization. I have hands-on experience with an array of technologies such as HTML, CSS, JavaScript, jQuery, React.JS, Next.JS, Node.JS, Express.JS, Tailwind CSS, Material UI, GraphQL, MongoDB, Mongoose, MySQL, Postgres, Sequelize, and AWS services such as EC2, IAM, S3, Lambda, Amplify, DynamoDB, and Dynamoose. My proficiency extends to CI/CD tools like Vercel, Netlify, and AWSPipeline, as well as version control using Git and GitHub. Currently, I am actively learning Python and Typescript, continuously expanding my coding wheelhouse to integrate additional programming languages, frameworks, and principles.
           </p>
           </div>
-          <div className={styles.aboutFiles}>
-            <a href="/Jason_Bhatti-Resume.pdf" alt="Jason_Bhatti_CV" target="_blank" rel="noopener noreferrer">
-              <h1>View My Resume</h1>
-            </a>
-            <a href="/HRCertificate.pdf" alt="Hack Reactor Certificate" target="_blank" rel="noopener noreferrer">
-              <h1>View Hack Reactor Certificate of Completion</h1>
-            </a>
-            <a href="/Testimonials.pdf" alt="Testimonials from Hack Reactor" target="_blank" rel="noopener noreferrer">
-              <h1>View Hack Reactor Testimonials</h1>
-            </a>
+          <div>
+            <div className={styles.aboutFiles}>
+              <h1 style={{ textDecoration: 'underline' }}>Click To View My Documents Below</h1>
+                <div className={styles.docContainer}>
+                  <a href="/Jason_Bhatti-Resume-SE-1.pdf" alt="Jason_Bhatti_CV" target="_blank" rel="noopener noreferrer">
+                    <Image className={styles.aboutDocs} src="https://images2.imgbox.com/c2/a0/zjoTA9l4_o.png" alt="Jason_Bhatti_CV" height="400px" width="800px"/>
+                  </a>
+                </div>
+                <div className={styles.docContainer}>
+                  <a href="/HRCertificate.pdf" alt="Hack Reactor Certificate" target="_blank" rel="noopener noreferrer">
+                    <Image className={styles.aboutDocs} src="https://images2.imgbox.com/7c/6b/mGC0SmrW_o.png" alt="Hack Reactor Certificate" height="400px" width="800px"/> 
+                  </a>
+                </div>
+                <div className={styles.docContainer}>
+                    <a href="/Testimonials.pdf" alt="Testimonials from Hack Reactor" target="_blank" rel="noopener noreferrer">
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/7c/97/SrMn5kL1_o.png" alt="Testimonials from Hack Reactor" height="400px" width="800px"/>
+                    </a>
+                </div>
+            </div>
           </div>
         </div>
       <Footer />
     </>
-  )
-
+  );
 }
 
 export default About;

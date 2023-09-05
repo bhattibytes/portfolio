@@ -332,8 +332,17 @@
 
 .aboutFiles {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
+.aboutDocs {
+  border-radius: 25px;
+}
+
+.docContainer {
+  margin-bottom: 20px;
+}
 
 .profilePic {
   border-radius: 150px;
