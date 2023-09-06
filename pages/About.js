@@ -16,7 +16,7 @@ const About = () => {
       },
       { rootMargin: "-100px" }
     );
-    console.log(isIntersecting);
+    console.log('Using Intersection Observer: ', isIntersecting);
     observer.observe(ref.current);
 
     return () => observer.disconnect();
@@ -24,9 +24,7 @@ const About = () => {
 
   useEffect(() => {
     if (isIntersecting) {
-      console.log("intersecting");
       ref.current.querySelectorAll("div").forEach((el) => {
-        console.log(el);
         el.classList.add("slide-in");
       });
     } else {
