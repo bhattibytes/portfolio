@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ResponsiveAppBar />
-      <main>
+      <div>
         <center>
           <h2 className={styles.headline}>Full Stack Software Engineer, Product Engineer & Systems Integrator</h2>
           <p style={{ fontSize: '20px'}}>I love solving problems with code to build great products.</p>
@@ -107,7 +107,7 @@ export default function Home() {
         <br/>
         <br/>
         <Testimonials />
-      </main>
+      </div>
       <Footer/>
     </div>
   )

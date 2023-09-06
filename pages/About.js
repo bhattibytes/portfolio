@@ -3,8 +3,39 @@ import Footer from '../components/Footer';
 import ResponsiveAppBar from '../components/ResponsiveAppBar';
 import Image from 'next/image';
 import profile2 from '../assets/JayRoof.jpeg';
+import { useEffect, useRef, useState } from 'react';
 
 const About = () => {
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsIntersecting(entry.isIntersecting);
+      },
+      { rootMargin: "-100px" }
+    );
+    console.log(isIntersecting);
+    observer.observe(ref.current);
+
+    return () => observer.disconnect();
+  }, [isIntersecting]);
+
+  useEffect(() => {
+    if (isIntersecting) {
+      console.log("intersecting");
+      ref.current.querySelectorAll("div").forEach((el) => {
+        console.log(el);
+        el.classList.add("slide-in");
+      });
+    } else {
+      ref.current.querySelectorAll("div").forEach((el) => {
+        el.classList.remove("slide-in");
+      });
+    }
+  }, [isIntersecting]);
+
   return (
     <>
       <ResponsiveAppBar />
@@ -31,24 +62,24 @@ const About = () => {
           </p>
           </div>
           <div>
-          <center><h1 style={{ textDecoration: 'underline' }}>Click To View My Documents</h1></center>
-            <div className={styles.aboutFiles}>
-                <div className={styles.docContainer}>
-                  <a href="/HRCertificate.pdf" alt="Hack Reactor Certificate" target="_blank" rel="noopener noreferrer">
-                    <Image className={styles.aboutDocs} src="https://images2.imgbox.com/7c/6b/mGC0SmrW_o.png" alt="Hack Reactor Certificate" height="200px" width="400px"/> 
+            <center><h1 style={{ textDecoration: 'underline' }}>Click To View Documents</h1></center>
+            <main ref={ref}>
+              <div className='child-one' >
+                <a href="/HRCertificate.pdf" alt="Hack Reactor Certificate" target="_blank" rel="noopener noreferrer">
+                  <Image className={styles.aboutDocs} src="https://images2.imgbox.com/dc/91/S9gP3fPx_o.png" alt="Hack Reactor Certificate" height="200px" width="400px"/> 
+                </a>
+              </div>
+              <div className='child-two' >
+                <a href="/Jason_Bhatti-Resume-SE-1.pdf" alt="Jason_Bhatti_CV" target="_blank" rel="noopener noreferrer">
+                  <Image className={styles.aboutDocs} src="https://images2.imgbox.com/ac/eb/Osl6x8A0_o.png" alt="Jason_Bhatti_CV" height="200px" width="400px"/>
+                </a>
+              </div>
+              <div className='child-three' >
+                  <a href="/Testimonials.pdf" alt="Testimonials from Hack Reactor" target="_blank" rel="noopener noreferrer">
+                    <Image className={styles.aboutDocs} src="https://images2.imgbox.com/b9/93/5QNXpmhm_o.png" alt="Testimonials from Hack Reactor" height="200px" width="400px"/>
                   </a>
-                </div>
-                <div className={styles.docContainer}>
-                  <a href="/Jason_Bhatti-Resume-SE-1.pdf" alt="Jason_Bhatti_CV" target="_blank" rel="noopener noreferrer">
-                    <Image className={styles.aboutDocs} src="https://images2.imgbox.com/c2/a0/zjoTA9l4_o.png" alt="Jason_Bhatti_CV" height="200px" width="400px"/>
-                  </a>
-                </div>
-                <div className={styles.docContainer}>
-                    <a href="/Testimonials.pdf" alt="Testimonials from Hack Reactor" target="_blank" rel="noopener noreferrer">
-                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/7c/97/SrMn5kL1_o.png" alt="Testimonials from Hack Reactor" height="200px" width="400px"/>
-                    </a>
-                </div>
-            </div>
+              </div>
+            </main>
           </div>
         </div>
       <Footer />

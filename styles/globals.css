@@ -36,3 +36,35 @@ button:hover {
 span.MuiLinearProgress-bar {
   background-color: #6e09f3;
 }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 30px;
+}
+
+main div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  Transition: all ease-in 1s;
+}
+
+main div:first-child {
+  transform: translateX(-150%);
+  opacity: 0;
+}
+
+main div:last-child {
+  transform: translateX(150%);
+  opacity: 0;
+}
+
+.slide-in {
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+}
