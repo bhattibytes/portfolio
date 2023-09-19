@@ -2,13 +2,13 @@ const github = {
   "commits": [
     {
       "id": 1,
-      "name": "Commits In The Last Year",
-      "imgURL": "https://images2.imgbox.com/30/79/vmAPmWd9_o.png",
+      "name": "Commits In 2023",
+      "imgURL": "https://images2.imgbox.com/19/06/bf0PryK8_o.png",
     },
     {
       "id": 2,
-      "name": "Commits In 2023",
-      "imgURL": "https://images2.imgbox.com/19/06/bf0PryK8_o.png",
+      "name": "Other Commits In The Last Year",
+      "imgURL": "https://images2.imgbox.com/30/79/vmAPmWd9_o.png",
     },
     {
       "id": 3,
@@ -24,7 +24,8 @@ const github = {
       "id": 5,
       "name": "Commits in 2020",
       "imgURL": "https://images2.imgbox.com/ad/ca/j67FxC8G_o.png",
-    }
+    },
+   
   ]
 }
 
