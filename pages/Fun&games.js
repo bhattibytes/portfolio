@@ -12,7 +12,7 @@ const Games = () => {
         <h1 className={styles.games}>Applications Made For Fun!</h1>
       </center>
       <a href="https://ably-hackathon.vercel.app/" target="_blank">
-        <h2 className={styles.titles}>Ably - Chat App</h2>
+        <h2 className={styles.titles}>Ably - TrackChat App</h2>
       </a>
       <a href="https://star-trek.vercel.app/" target="_blank">
         <h2 className={styles.titles}>Star Trek - Tribute App</h2>
