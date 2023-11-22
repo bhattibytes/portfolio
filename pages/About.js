@@ -4,20 +4,23 @@ import ResponsiveAppBar from '../components/ResponsiveAppBar';
 import Image from 'next/image';
 import profile2 from '../assets/JayRoof.jpeg';
 import { useEffect, useRef, useState } from 'react';
+import Tooltip from '@mui/material/Tooltip';
 
 const About = () => {
   const [isIntersecting, setIsIntersecting] = useState(false);
   const ref = useRef(null);
+  const ref2 = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsIntersecting(entry.isIntersecting);
       },
-      { rootMargin: "-100px" }
+      { rootMargin: "80px" }
     );
     console.log('Using Intersection Observer: ', isIntersecting);
     observer.observe(ref.current);
+    observer.observe(ref2.current);
 
     return () => observer.disconnect();
   }, [isIntersecting]);
@@ -27,8 +30,14 @@ const About = () => {
       ref.current.querySelectorAll("div").forEach((el) => {
         el.classList.add("slide-in");
       });
+      ref2.current.querySelectorAll("div").forEach((el) => {
+        el.classList.add("slide-in");
+      });
     } else {
       ref.current.querySelectorAll("div").forEach((el) => {
+        el.classList.remove("slide-in");
+      });
+      ref2.current.querySelectorAll("div").forEach((el) => {
         el.classList.remove("slide-in");
       });
     }
@@ -60,7 +69,7 @@ const About = () => {
           </p>
           </div>
           <div>
-            <center><h1 style={{ textDecoration: 'underline' }}>Click To View Documents</h1></center>
+            <center><h1 style={{ textDecoration: 'underline' }}>Click To View - Documents</h1></center>
             <main ref={ref}>
               <div className='child-one' >
                 <a href="/HRCertificate.pdf" alt="Hack Reactor Certificate" target="_blank" rel="noopener noreferrer">
@@ -76,6 +85,65 @@ const About = () => {
                   <a href="/Testimonials.pdf" alt="Testimonials from Hack Reactor" target="_blank" rel="noopener noreferrer">
                     <Image className={styles.aboutDocs} src="https://images2.imgbox.com/b9/93/5QNXpmhm_o.png" alt="Testimonials from Hack Reactor" height="200px" width="400px"/>
                   </a>
+              </div>
+            </main>
+          </div>
+          <div>
+            <center><h1 style={{ textDecoration: 'underline' }}>Click To View - Coursera Certificates</h1></center>
+            <main ref={ref2}>
+              <div className='child-one'>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/FHW9HC6249BG" alt="AWS Multi-Tier VPC Architecture" target="_blank" rel="noopener noreferrer">
+                  <Tooltip title="AWS Multi-Tier VPC Architecture" arrow placement="top">
+                    <div>
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="AWS Multi-Tier VPC Architecture" height="300px" width="400px"/> 
+                    </div>
+                  </Tooltip>
+                </a>
+              </div>
+              <div className='child-two'>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/J4S2VDJG34K2" alt="Create an API using Express, GraphQL, and Mongoose" target="_blank" rel="noopener noreferrer">
+                  <Tooltip title="Create an API using Express, GraphQL, and Mongoose" arrow placement="top">
+                    <div>
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Create an API using Express, GraphQL, and Mongoose" height="300px" width="400px"/> 
+                    </div>
+                  </Tooltip>
+                </a>
+              </div>
+              <div className='child-three'>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/M5XA3T5YUEA9" alt="Deploy a Website Container Image in AWS ECS andAWS Fargate" target="_blank" rel="noopener noreferrer">
+                  <Tooltip title="Deploy a Website Container Image in AWS ECS and AWS Fargate" arrow placement="top">
+                    <div>
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Deploy a Website Container Image in AWS ECS and AWS Fargate" height="300px" width="400px"/> 
+                    </div>
+                  </Tooltip>
+                </a>
+              </div>
+              <div className='child-four'>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/Y27YBG53LPZ5" alt="Prompt Engineering for ChatGPT" target="_blank" rel="noopener noreferrer">
+                  <Tooltip title="Prompt Engineering for ChatGPT" arrow placement="top">
+                    <div>
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Prompt Engineering for ChatGPT" height="300px" width="400px"/> 
+                    </div>
+                  </Tooltip>
+                </a>
+              </div>
+              <div className='child-five'>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/S92FXLTYFWFJ" alt="Typescript - Learn the fundamentals" target="_blank" rel="noopener noreferrer">
+                  <Tooltip title="Typescript - Learn the fundamentals" arrow placement="top">
+                    <div>
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Typescript - Learn the fundamentals" height="300px" width="400px"/> 
+                    </div>
+                  </Tooltip>
+                </a>
+              </div>
+              <div className='child-six'>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/J2LK4XMWXGRS" alt="Typescript in React: Generics, Demystified" target="_blank" rel="noopener noreferrer">
+                  <Tooltip title="Typescript in React: Generics, Demystified" arrow placement="top">
+                    <div>
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Typescript in React: Generics, Demystified" height="300px" width="400px"/> 
+                    </div>
+                  </Tooltip>
+                </a>
               </div>
             </main>
           </div>
