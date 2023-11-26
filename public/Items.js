@@ -5,7 +5,7 @@ const items = {
         "id": 1,
         "name": "Sajib Hossain",
         "title": "Full Stack Software Engineer at Flokq",
-        "imageUrl": "https://media.licdn.com/dms/image/C5603AQE7kJm4uqmr7g/profile-displayphoto-shrink_200_200/0/1658936727205?e=1699488000&v=beta&t=QMsL3RRLN1Y_SGyJFUHb5Uh-TJp-BtU5_ykhwLAKdbo",
+        "imageUrl": "https://media.licdn.com/dms/image/C5603AQE7kJm4uqmr7g/profile-displayphoto-shrink_100_100/0/1658936727811?e=1706745600&v=beta&t=IJChfoQdCCRLOF3qYNoMQhpWuXtqlzAlkFujp9sAn4k",
         "testimonial": "I had the privilege of collaborating with Jason during my tenure at Charla Technologies, Inc. Throughout our work together, I found him to be consistently supportive and guided me effectively throughout my time at the company. What struck me the most was his remarkable willingness to assist junior colleagues. Jason possesses a wealth of coding experience and has a strong commitment to maintaining clean code practices. Additionally, his rapid acquisition of new technologies is truly impressive. I wholeheartedly endorse him for any organizations seeking a software engineer with exceptional leadership qualities."
       },
       {
@@ -26,7 +26,7 @@ const items = {
         "id": 4,
         "name": "Michael Weaver",
         "title": "Chief Executive Officer at Fairchild Media",
-        "imageUrl": "https://media.licdn.com/dms/image/D4E03AQGprPtya8XnNA/profile-displayphoto-shrink_200_200/0/1691936088230?e=1698883200&v=beta&t=fGZoMguyoYQYf68kwTqbv6M2m7b1etAvdKkqgLzlFGk",
+        "imageUrl": "https://media.licdn.com/dms/image/D4E03AQGprPtya8XnNA/profile-displayphoto-shrink_100_100/0/1691936088686?e=1706745600&v=beta&t=KKC_xOFTMfPMqgjT2djA8mPmCKBxvnlOXUXbk255Txw",
         "testimonial": "I've worked closely with Jason the last five months and respect his problem solving ability. Jason has consistently shown the ability to take a loosely defined problem and quickly find the solution. He is a valuable part of our team and consistently gets results week after week. He has excellent customer relationship management skills. Jason is an asset to our team as he would be to any company he works for. It has been a pleasure working with Jason and I'd gladly work with him on future endeavors."
       }, 
       {
