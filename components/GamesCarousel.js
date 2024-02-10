@@ -8,7 +8,7 @@ export default function ElasticCarouselGames() {
       <div className={styles.container}>
         <div>
           <h1 >Playable Retro Games</h1>
-          <h3>Enjoy these handpicked classic NES and SNES games...</h3>
+          <h3>Enjoy handpicked classic Playstation and Nintendo games...</h3>
         </div>
         <hr className={styles.seperator} />
         <div className={styles.contWrapper}>
