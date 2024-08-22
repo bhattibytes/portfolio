@@ -77,7 +77,7 @@ const About = () => {
                 </a>
               </div>
               <div className='child-two' >
-                <a href="/Jason_Bhatti-Resume-SE-1.pdf" alt="Jason_Bhatti_CV" target="_blank" rel="noopener noreferrer">
+                <a href="/Jason_Bhatti_Resume-SE-1.pdf" alt="Jason_Bhatti_CV" target="_blank" rel="noopener noreferrer">
                   <Image className={styles.aboutDocs} src="https://images2.imgbox.com/ac/eb/Osl6x8A0_o.png" alt="Jason_Bhatti_CV" height="200px" width="400px"/>
                 </a>
               </div>

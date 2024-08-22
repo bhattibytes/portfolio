@@ -518,6 +518,13 @@
  font-family: ui-rounded;
 }
 
+@media screen and (max-width: 1415px) {
+  .NavButton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .social {
     width: 50%;

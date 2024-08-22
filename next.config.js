@@ -11,7 +11,7 @@ module.exports = {
       use: {
         loader: 'file-loader',
         options: {
-          name: ['Jason_Bhatti-Resume-SE-1.pdf', 'HRCertificate.pdf', 'Testimonials.pdf'],
+          name: ['Jason_Bhatti_Resume-SE-1.pdf', 'HRCertificate.pdf', 'Testimonials.pdf'],
         },
       }
     });
