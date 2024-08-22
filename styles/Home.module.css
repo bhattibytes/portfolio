@@ -2,6 +2,11 @@
   background-color: #6e07f3 !important;
 }
 
+.NavButton {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .Logo {
   position: absolute;
   top: 0px;
@@ -516,13 +521,6 @@
 .handFooter {
  font-size: 18px; 
  font-family: ui-rounded;
-}
-
-@media screen and (max-width: 1415px) {
-  .NavButton {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 @media screen and (max-width: 1300px) {
