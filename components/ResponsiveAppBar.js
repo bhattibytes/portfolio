@@ -15,12 +15,15 @@ import Image from 'next/image';
 import Logo from '../assets/BB.png';
 import LogoWhite from '../assets/BBwhite.png';
 import styles from '../styles/Home.module.css';
+import useWindowDimensions from './WindowHook';
 
 const pages = ['About', 'Work', 'Github', 'Blog',  'Fun&Games'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [id, setId] = useState(0);
+
+  const { height, width } = useWindowDimensions();
 
   const handleOpenHamburgerMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -140,7 +143,9 @@ const ResponsiveAppBar = () => {
                 className={styles.NavButton}
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'white', display: 'block', 
+                  mx: width > 1415 ? 14 : width > 1270 ? 12 : width > 1125 ? 10 : width > 980 ? 8: 6 
+                }}
               >
                 {page}
               </Button>
