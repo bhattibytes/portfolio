@@ -144,7 +144,7 @@ const ResponsiveAppBar = () => {
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block', 
-                  mx: width > 1415 ? 14 : width > 1270 ? 12 : width > 1125 ? 10 : width > 980 ? 8: 14 
+                  mx: width > 1415 ? 14 : width > 1270 ? 12 : width > 1125 ? 10 : width > 980 ? 8 : width > 890 ? 6 : 14
                 }}
               >
                 {page}
