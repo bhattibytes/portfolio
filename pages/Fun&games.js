@@ -17,8 +17,8 @@ const Games = () => {
       <a href="https://star-trek.vercel.app/" target="_blank">
         <h2 className={styles.titles}>Star Trek - Tribute App</h2>
       </a>
-      <a href="https://space-x-launch-app-iota.vercel.app/" target="_blank">
-        <h2 className={styles.titles}>SpaceX - Launch App</h2>
+      <a href="https://fetch-dog-adoption.vercel.app/" target="_blank">
+        <h2 className={styles.titles}>Fetch - Dog Adoption</h2>
       </a>
       <a href="https://thegameofwar.vercel.app/" target="_blank">
         <h2 className={styles.titles}>Game of War - Game App</h2>
