@@ -48,12 +48,12 @@ const About = () => {
       <ResponsiveAppBar />
         <div className={styles.about}>
           <h1 className={styles.aboutHeader}>About Me</h1>
-          <Image className={styles.profilePic} src={profile2} alt="profile" height="300px" width="300px"/>
+          <Image className={styles.profilePic} src={profile2} alt="profile" height={300} width={300} />
           <div className={styles.aboutText}>
           <p className={styles.aboutBody}>
-            I am Jason Bhatti, a highly skilled and accomplished professional with a proven track record in the "Software as a Service" - (SaaS) technology sector. Over the course of several years, I have honed my expertise through various roles in leading SaaS companies. My career has been driven by an unwavering curiosity for understanding systems and a relentless pursuit of improvement.
+            I am Jason Bhatti, a highly skilled and accomplished professional with a proven track record in the &quot;Software as a Service&quot; - (SaaS) technology sector. Over the course of several years, I have honed my expertise through various roles in leading SaaS companies. My career has been driven by an unwavering curiosity for understanding systems and a relentless pursuit of improvement.
             
-            Throughout my professional journey, I have been at the forefront of driving significant enhancements for organizations. By focusing on increasing efficiency, usability, user experience, and accessibility, I have effectively contributed to the growth and success of the companies I've been associated with.
+            Throughout my professional journey, I have been at the forefront of driving significant enhancements for organizations. By focusing on increasing efficiency, usability, user experience, and accessibility, I have effectively contributed to the growth and success of the companies I&apos;ve been associated with.
             
             A key aspect of my approach has been collaborating closely with engineering teams to devise innovative solutions that cater to the unique needs of clients and stakeholders. This hands-on involvement has allowed me to bridge the gap between conceptualization and execution, resulting in streamlined processes and satisfied stakeholders.
             
@@ -73,17 +73,17 @@ const About = () => {
             <main ref={ref}>
               <div className='child-one' >
                 <a href="/HRCertificate.pdf" alt="Hack Reactor Certificate" target="_blank" rel="noopener noreferrer">
-                  <Image className={styles.aboutDocs} src="https://images2.imgbox.com/dc/91/S9gP3fPx_o.png" alt="Hack Reactor Certificate" height="200px" width="400px"/> 
+                  <Image className={styles.aboutDocs} src="https://images2.imgbox.com/dc/91/S9gP3fPx_o.png" alt="Hack Reactor Certificate" height={200} width={400}/> 
                 </a>
               </div>
               <div className='child-two' >
                 <a href="/Jason_Bhatti_Resume-SE-1.pdf" alt="Jason_Bhatti_CV" target="_blank" rel="noopener noreferrer">
-                  <Image className={styles.aboutDocs} src="https://images2.imgbox.com/ac/eb/Osl6x8A0_o.png" alt="Jason_Bhatti_CV" height="200px" width="400px"/>
+                  <Image className={styles.aboutDocs} src="https://images2.imgbox.com/ac/eb/Osl6x8A0_o.png" alt="Jason_Bhatti_CV" height={200} width={400}/>
                 </a>
               </div>
               <div className='child-three' >
                   <a href="/Testimonials.pdf" alt="Testimonials from Hack Reactor" target="_blank" rel="noopener noreferrer">
-                    <Image className={styles.aboutDocs} src="https://images2.imgbox.com/b9/93/5QNXpmhm_o.png" alt="Testimonials from Hack Reactor" height="200px" width="400px"/>
+                    <Image className={styles.aboutDocs} src="https://images2.imgbox.com/b9/93/5QNXpmhm_o.png" alt="Testimonials from Hack Reactor" height={200} width={400}/>
                   </a>
               </div>
             </main>
@@ -95,7 +95,7 @@ const About = () => {
                 <a href="https://www.coursera.org/account/accomplishments/certificate/FHW9HC6249BG" alt="AWS Multi-Tier VPC Architecture" target="_blank" rel="noopener noreferrer">
                   <Tooltip title="AWS Multi-Tier VPC Architecture" arrow placement="top">
                     <div>
-                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="AWS Multi-Tier VPC Architecture" height="300px" width="400px"/> 
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="AWS Multi-Tier VPC Architecture" height={300} width={400}/> 
                     </div>
                   </Tooltip>
                 </a>
@@ -104,7 +104,7 @@ const About = () => {
                 <a href="https://www.coursera.org/account/accomplishments/certificate/J4S2VDJG34K2" alt="Create an API using Express, GraphQL, and Mongoose" target="_blank" rel="noopener noreferrer">
                   <Tooltip title="Create an API using Express, GraphQL, and Mongoose" arrow placement="top">
                     <div>
-                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Create an API using Express, GraphQL, and Mongoose" height="300px" width="400px"/> 
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Create an API using Express, GraphQL, and Mongoose" height={300} width={400}/> 
                     </div>
                   </Tooltip>
                 </a>
@@ -113,7 +113,7 @@ const About = () => {
                 <a href="https://www.coursera.org/account/accomplishments/certificate/M5XA3T5YUEA9" alt="Deploy a Website Container Image in AWS ECS andAWS Fargate" target="_blank" rel="noopener noreferrer">
                   <Tooltip title="Deploy a Website Container Image in AWS ECS and AWS Fargate" arrow placement="top">
                     <div>
-                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Deploy a Website Container Image in AWS ECS and AWS Fargate" height="300px" width="400px"/> 
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Deploy a Website Container Image in AWS ECS and AWS Fargate" height={300} width={400}/> 
                     </div>
                   </Tooltip>
                 </a>
@@ -122,7 +122,7 @@ const About = () => {
                 <a href="https://www.coursera.org/account/accomplishments/certificate/Y27YBG53LPZ5" alt="Prompt Engineering for ChatGPT" target="_blank" rel="noopener noreferrer">
                   <Tooltip title="Prompt Engineering for ChatGPT" arrow placement="top">
                     <div>
-                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Prompt Engineering for ChatGPT" height="300px" width="400px"/> 
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Prompt Engineering for ChatGPT" height={300} width={400}/> 
                     </div>
                   </Tooltip>
                 </a>
@@ -131,7 +131,7 @@ const About = () => {
                 <a href="https://www.coursera.org/account/accomplishments/certificate/S92FXLTYFWFJ" alt="Typescript - Learn the fundamentals" target="_blank" rel="noopener noreferrer">
                   <Tooltip title="Typescript - Learn the fundamentals" arrow placement="top">
                     <div>
-                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Typescript - Learn the fundamentals" height="300px" width="400px"/> 
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Typescript - Learn the fundamentals" height={300} width={400}/> 
                     </div>
                   </Tooltip>
                 </a>
@@ -140,7 +140,7 @@ const About = () => {
                 <a href="https://www.coursera.org/account/accomplishments/certificate/J2LK4XMWXGRS" alt="Typescript in React: Generics, Demystified" target="_blank" rel="noopener noreferrer">
                   <Tooltip title="Typescript in React: Generics, Demystified" arrow placement="top">
                     <div>
-                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Typescript in React: Generics, Demystified" height="300px" width="400px"/> 
+                      <Image className={styles.aboutDocs} src="https://images2.imgbox.com/45/9c/xYFGCRXv_o.png" alt="Typescript in React: Generics, Demystified" height={300} width={400}/> 
                     </div>
                   </Tooltip>
                 </a>

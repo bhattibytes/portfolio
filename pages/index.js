@@ -27,12 +27,12 @@ export default function Home() {
         </center>
         <br/>
         <br/>
-        <center><Image className={styles.advatar} src={advatar} alt="developer advatar" height="250px" width="250px"/></center>
-        <center><Image className={styles.devices} src={devices} alt="developer advatar" height="500px" width="750px"/></center>
+        <center><Image className={styles.advatar} src={advatar} alt="developer advatar" height={250} width={250} /></center>
+        <center><Image className={styles.devices} src={devices} alt="developer advatar" height={500} width={750} /></center>
         <section className={styles.section}>
           <section>
             <center>
-              <h1 className={styles.homeBio}>Hi, I'm Jason. Welcome to my portfolio.</h1>
+              <h1 className={styles.homeBio}>Hi, I&apos;m Jason. Welcome to my portfolio.</h1>
               <h2 className={styles.homeBioSummary}>Throughout my career, I have thrived in team-oriented environments that foster innovation and challenge. My in-depth knowledge of JavaScript frameworks and libraries, exceptional debugging skills, and problem-solving strategies have consistently set me apart and allowed me to offer truly unique contributions.</h2>
             </center>
           </section>
@@ -82,7 +82,7 @@ export default function Home() {
               </svg></svg>
               <h2>Systems Integrator</h2>
               <p className={styles.blurb}>I thrive on uniting systems into a single cohesive infrastructure.</p>
-              <h4 className={styles.cardHead}>Systems I've integrated:</h4>
+              <h4 className={styles.cardHead}>Systems I&apos;ve integrated:</h4>
               <p className={styles.blurb}>Marketo, Convertr, Salesforce, Swoogo, Cadmium</p>
               <h4 className={styles.cardHead}>Integration Tools:</h4>
               <p className={styles.blurb}>Webhooks</p>

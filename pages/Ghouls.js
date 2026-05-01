@@ -7,7 +7,7 @@ const Ghouls = () => {
     <div>
       <ResponsiveAppBar />
       <center>
-        <h1 className={styles.games}>Super Ghouls'n Ghosts</h1>
+        <h1 className={styles.games}>Super Ghouls&apos;n Ghosts</h1>
         <iframe className={styles.iframe} src="https://www.retrogames.cc/embed/20262-super-ghouls-n-ghosts-europe.html" width="1000" height="750" frameBorder="no" allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
       </center>
       <Footer />

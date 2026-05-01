@@ -1,24 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
-
-module.exports = {
-  reactStrictMode: true,
-  webpack: (config) => {
-    config.module.rules.push({
-      test: /\.pdf$/,
-      use: {
-        loader: 'file-loader',
-        options: {
-          name: ['Jason_Bhatti_Resume-SE-1.pdf', 'HRCertificate.pdf', 'Testimonials.pdf'],
-        },
-      }
-    });
-    return config;
-  },
   images: {
-    domains: ['pngpress.com', 'images2.imgbox.com'],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "pngpress.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "images2.imgbox.com",
+        pathname: "/**",
+      },
+    ],
   },
-  nextConfig
-}
+};
+
+module.exports = nextConfig;
